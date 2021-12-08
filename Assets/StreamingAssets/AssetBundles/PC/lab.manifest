@@ -1,0 +1,230 @@
+ManifestFileVersion: 0
+CRC: 4287393532
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7957fa5a402731a553942e85d0339fe8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e06015eccba65bc9ccf400a557001f44
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4ee199cdc1304b2090f019e4f488674, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ea765d05f5b3683458fb6b25f6663d26, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7a2433ecc5ccf4e63bb2a0c0a63396b6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 39759eab37f28449591249bfb4325190, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 739800cd36aba44e9b04ce977e5784bd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 710f69cdcb5e3684caf803e0efdd10fc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7528488988f9d48478da328909125dea, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 51b65678ccdd949e9a58874d2880c0ef, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b0c5ca5fa04924fba9147dfaf47df831, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b78ffabb50d1e94ca164106f5444e34, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 651aa76e8cc8486469816be09993892d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cba09c00751ba41159526c8183b0de7f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1ca06ba767c343f88bd2863d51c3f74b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 25b628e3de424689ac7de60f393632a2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: eb5dd43baba2d4dc1bab789615567e3d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 91118f3beec7486ea2567c3433738017, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 41679d3338266415f88d226e6bf3d0be, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ef63f87a26b474e1c88f77dfc4f3aa3a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6bdf6b61e7d2a48b1a88fcb60edfa50a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0de7d8ef8e764b9f97aeb37dfc371655, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ecd9463bbd7994be09b972947a085067, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dff959800d3e94aeb9e7e4540fdc8200, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b2e569dc832500047bf4350b4dae9b97, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 12a91b7130e414ab9a11ddba1bc9f3cc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 54ecd6f8f59f4d1e8bda25f99d93bb34, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7dda4bb2d5509e44e978d2bf56e25d7c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a4f920a02ae0fdd4bb54f086f94c9355, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b8415440b3cb0734ab59db65552b8e34, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 41251d5f89d5546bb9d8ba907686b71f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b5cd7f7fcfc8a4c1fbc201ccc579556d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: aa952cbcc0eb13d4ca558b6da550ff55, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 311793381eb9d45149dc1a422000a9fd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a8c67d2feba743d4af2afb9e91fbd762, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e896a95fab2b47ccba894461aaaa5372, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d818b7be6aa0b4854a7cbc164af40336, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d8af39100c41803459e9e8af5c2c8e48, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1c2006d717b842d4881878d3909ceba, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df9f338034892c44ebb62d97894772f1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7e933e81d3c20c74ea6fdc708a67e3a5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df8e1d778abf442e4bec449c360e9e1c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a5383ccacfb5842c2826eb73e812004f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 120
+  Script: {instanceID: 0}
+- Class: 124
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 225
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Timesnap/Titles/Timesnap1/Sprites/ui_box_light.png
+- Assets/Libraries/GoogleVR/Textures/ddcontroller.png
+- Assets/Timesnap/Titles/Timesnap1/Sprites/field_note_icon.png
+- Assets/Libraries/GoogleVR/Textures/cursor_pointer.png
+- Assets/Timesnap/Titles/Timesnap1/Sprites/gear_btn.png
+- Assets/Libraries/GoogleVR/Shaders/GvrUnlitTransparentOverlayColor.shader
+- Assets/Timesnap/Titles/Timesnap1/Sprites/pointer_hover.png
+- Assets/Timesnap/Titles/Timesnap1/Panos/Lab L.mat
+- Assets/Timesnap/Core/Src/EFS/Timesnap/VRPanorama/Models/Resources/VRPanorama/half
+  sphere.FBX
+- Assets/Libraries/GoogleVR/Textures/laserTexture.png
+- Assets/Timesnap/Core/Shaders/OverlayUIShader.shader
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Lab/Lab_Font_L.tif
+- Assets/Timesnap/Titles/Timesnap1/Materials/torned poster.png
+- Assets/Timesnap/Titles/Timesnap1/Sprites/item_of_choice_1.png
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Lab/Lab_Z_L.jpg
+- Assets/Libraries/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader
+- Assets/Libraries/GoogleVR/Materials/ControllerBase.mat
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Lab/Lab.jpg
+- Assets/Timesnap/Titles/Timesnap1/Materials/Metal_SteelApocalypse_2k_s.tga
+- Assets/Timesnap/Titles/Timesnap1/Sprites/ana_obj.jpg
+- Assets/Timesnap/Titles/Timesnap1/Sprites/location_workshop.png
+- Assets/Timesnap/Titles/Timesnap1/Materials/Metal_SciFiCompartmentPanelsPaint_2k_nY+.tga
+- Assets/Timesnap/Titles/Timesnap1/Sprites/location_tavern.png
+- Assets/Libraries/GoogleVR/Models/ddcontroller.fbx
+- Assets/Timesnap/Titles/Timesnap1/Sprites/tavern_map.png
+- Assets/Timesnap/Titles/Timesnap1/Materials/135 mask.mat
+- Assets/Timesnap/Titles/Timesnap1/Materials/Metal_SciFiCompartmentPanelsPaint_2k_d.tga
+- Assets/Timesnap/Titles/Timesnap1/Panos/Lab R.mat
+- Assets/Libraries/GoogleVR/Materials/ReticlePointer.mat
+- Assets/Libraries/GoogleVR/Materials/TooltipSimple.mat
+- Assets/Timesnap/Titles/Timesnap1/Sprites/ui_box_dark.png
+- Assets/Timesnap/Titles/Timesnap1/Sprites/jail_map_day.jpg
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Lab/Lab_Back_L.tif
+- Assets/Timesnap/Titles/Timesnap1/Sprites/check_icon.png
+- Assets/Timesnap/Core/Prefabs/Environment.prefab
+- Assets/Timesnap/Titles/Timesnap1/Models/ball.FBX
+- Assets/Timesnap/Titles/Timesnap1/Materials/UIShaderNoZ.mat
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Lab/Lab_WF_L.jpg
+- Assets/Timesnap/Core/Prefabs/VR Player.prefab
+- Assets/Timesnap/Titles/Timesnap1/Sprites/nat_constance_fleeing_alley_bg_2k.jpg
+- Assets/Libraries/GoogleVR/Materials/ControllerLaser.mat
+- Assets/Libraries/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Lab/Lab_Z.png
+- Assets/Timesnap/Titles/Timesnap1/Sprites/location_jail.png
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Lab/Lab 90.jpg
+- Assets/Timesnap/Titles/Timesnap1/Sprites/ui_box.png
+- Assets/Libraries/GoogleVR/Materials/ControllerReticle.mat
+- Assets/Timesnap/Titles/Timesnap1/Sprites/workshop_map.png
+- Assets/Timesnap/Titles/Timesnap1/Audio/old files/I wonder what they are disagreeing
+  about_.mp3
+- Assets/Libraries/GoogleVR/Shaders/GvrControllerReticle.shader
+- Assets/Timesnap/Titles/Timesnap1/Materials/Wood_DistressedWood_2k_s.tga
+- Assets/Timesnap/Titles/Timesnap1/Materials/Wood_DistressedWood_2k_alb.tga
+- Assets/Timesnap/Titles/Timesnap1/Sprites/gear_icon.png
+- Assets/Timesnap/Titles/Timesnap1/Materials/All Dark.mat
+- Assets/Timesnap/Titles/Timesnap1/Sprites/hotspot.png
+- Assets/Timesnap/Titles/Timesnap1/Sprites/ana_doc.jpg
+- Assets/Timesnap/Core/Shaders/UnlitColorAlpha.shader
+- Assets/Timesnap/Titles/Timesnap1/Sprites/ana_mind.jpg
+- Assets/Libraries/GoogleVR/Prefabs/Controller/Tooltips/GvrControllerTooltipsSimple.prefab
+- Assets/Timesnap/Titles/Timesnap1/Sprites/map_2k.jpg
+- Assets/Timesnap/Titles/Timesnap1/Sprites/ControllerTooltips Alt.png
+- Assets/Libraries/GoogleVR/Models/ddtooltips.fbx
+- Assets/Timesnap/Titles/Timesnap1/Sprites/workshop_map_night.png
+- Assets/Timesnap/Titles/Timesnap1/Sprites/jail_map_night.jpg
+- Assets/Timesnap/Titles/Timesnap1/Materials/Wood_DistressedWood_2k_n.tga
+- Assets/Libraries/GoogleVR/Shaders/GvrController.shader
+- Assets/Timesnap/Titles/Timesnap1/Sprites/item_of_choice.png
+- Assets/Libraries/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+- Assets/Timesnap/Titles/Timesnap1/Materials/180 Mask.png
+- Assets/Timesnap/Core/Prefabs/vr keyboard/Keyboard.prefab
+- Assets/Libraries/GoogleVR/Shaders/GvrReticleShader.shader
+- Assets/Timesnap/Core/Prefabs/Sphere (Normals Inverted).FBX
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Lab/Lab_Font_L_new.tif
+- Assets/Timesnap/Titles/Timesnap1/Sprites/pointer_default.png
+Dependencies: []

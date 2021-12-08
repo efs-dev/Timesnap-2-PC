@@ -1,0 +1,321 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: ScenesEditor
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::ScenesEditorData
+  Entries: []
+  AllEntries:
+  - Autoplay: 0
+    Path: Libraries/CurvedUI/Demo Scenes/01 Inventory.unity
+    Name: 01 Inventory
+    Hidden: 1
+  - Autoplay: 0
+    Path: Libraries/CurvedUI/Demo Scenes/02 Visor.unity
+    Name: 02 Visor
+    Hidden: 1
+  - Autoplay: 0
+    Path: Libraries/CurvedUI/Demo Scenes/03 Mainframe.unity
+    Name: 03 Mainframe
+    Hidden: 1
+  - Autoplay: 0
+    Path: Libraries/CurvedUI/Demo Scenes/04 VRMenuMouse.unity
+    Name: 04 VRMenuMouse
+    Hidden: 1
+  - Autoplay: 0
+    Path: Libraries/CurvedUI/Demo Scenes/05 VRMenuGaze.unity
+    Name: 05 VRMenuGaze
+    Hidden: 1
+  - Autoplay: 0
+    Path: Libraries/CurvedUI/Demo Scenes/06 VRMenuCustomRay.unity
+    Name: 06 VRMenuCustomRay
+    Hidden: 1
+  - Autoplay: 0
+    Path: Libraries/CurvedUI/Demo Scenes/07 3DObjectsOnCanvas.unity
+    Name: 07 3DObjectsOnCanvas
+    Hidden: 1
+  - Autoplay: 0
+    Path: Libraries/CurvedUI/Demo Scenes/08 WorldSpaceMouse.unity
+    Name: 08 WorldSpaceMouse
+    Hidden: 1
+  - Autoplay: 0
+    Path: Libraries/CurvedUI/Demo Scenes/09 TextMeshPro Support.unity
+    Name: 09 TextMeshPro Support
+    Hidden: 1
+  - Autoplay: 0
+    Path: Libraries/CurvedUI/Demo Scenes/10 DraggingWithGaze.unity
+    Name: 10 DraggingWithGaze
+    Hidden: 1
+  - Autoplay: 0
+    Path: Libraries/CurvedUI/Demo Scenes/11 SteamVR Starter.unity
+    Name: 11 SteamVR Starter
+    Hidden: 1
+  - Autoplay: 0
+    Path: Libraries/CurvedUI/Demo Scenes/12 GoogleVR Starter.unity
+    Name: 12 GoogleVR Starter
+    Hidden: 1
+  - Autoplay: 0
+    Path: Libraries/CurvedUI/Demo Scenes/13 OculusVR Starter.unity
+    Name: 13 OculusVR Starter
+    Hidden: 1
+  - Autoplay: 0
+    Path: Libraries/GoogleVR/Demos/Scenes/HelloVR.unity
+    Name: HelloVR
+    Hidden: 1
+  - Autoplay: 0
+    Path: Libraries/GoogleVR/Demos/Scenes/KeyboardDemo.unity
+    Name: KeyboardDemo
+    Hidden: 1
+  - Autoplay: 0
+    Path: Libraries/GoogleVR/Demos/Scenes/PermissionsDemo.unity
+    Name: PermissionsDemo
+    Hidden: 1
+  - Autoplay: 0
+    Path: Libraries/GoogleVR/Demos/Scenes/VideoDemo.unity
+    Name: VideoDemo
+    Hidden: 1
+  - Autoplay: 0
+    Path: Libraries/Image Sequence Playback/Ex_AsyncLoading.unity
+    Name: Ex_AsyncLoading
+    Hidden: 1
+  - Autoplay: 0
+    Path: Libraries/Image Sequence Playback/Ex_Audio.unity
+    Name: Ex_Audio
+    Hidden: 1
+  - Autoplay: 0
+    Path: Libraries/Image Sequence Playback/Ex_MaterialMode.unity
+    Name: Ex_MaterialMode
+    Hidden: 1
+  - Autoplay: 0
+    Path: Libraries/Image Sequence Playback/Ex_TextureMode.unity
+    Name: Ex_TextureMode
+    Hidden: 1
+  - Autoplay: 0
+    Path: Libraries/Image Sequence Playback/Ex_uGUI.unity
+    Name: Ex_uGUI
+    Hidden: 1
+  - Autoplay: 0
+    Path: Libraries/Oculus/VR/Scenes/Cubes.unity
+    Name: Cubes
+    Hidden: 1
+  - Autoplay: 0
+    Path: Libraries/Oculus/VR/Scenes/GearVrControllerTest.unity
+    Name: GearVrControllerTest
+    Hidden: 1
+  - Autoplay: 0
+    Path: Libraries/Oculus/VR/Scenes/Room.unity
+    Name: Room
+    Hidden: 1
+  - Autoplay: 0
+    Path: Libraries/Oculus/VR/Scenes/Trivial.unity
+    Name: Trivial
+    Hidden: 1
+  - Autoplay: 0
+    Path: Libraries/Oculus/VR/Scenes/UI.unity
+    Name: UI
+    Hidden: 1
+  - Autoplay: 0
+    Path: Plugins/CodeStage/AdvancedFPSCounter/Examples/ExampleScene.unity
+    Name: ExampleScene
+    Hidden: 1
+  - Autoplay: 0
+    Path: Plugins/CodeStage/AdvancedFPSCounter/Examples/VRExampleScene.unity
+    Name: VRExampleScene
+    Hidden: 1
+  - Autoplay: 0
+    Path: Plugins/UniRx/Examples/Sample12Scene.unity
+    Name: Sample12Scene
+    Hidden: 1
+  - Autoplay: 0
+    Path: Plugins/UniRx/Examples/Sample13Scene.unity
+    Name: Sample13Scene
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Core/Scenes/BundleLoader.unity
+    Name: BundleLoader
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Core/Scenes/LoginFlowTest.unity
+    Name: LoginFlowTest
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Core/Scenes/PreludeVr.unity
+    Name: PreludeVr
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Core/Scenes/SceneStarter.unity
+    Name: SceneStarter
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Core/Src/EFS/Timesnap/Reporting/Levels/simplePDF.unity
+    Name: simplePDF
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/Jail.unity
+    Name: Jail
+    Hidden: 0
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/Lab.unity
+    Name: Lab
+    Hidden: 0
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/Tavern.unity
+    Name: Tavern
+    Hidden: 0
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/Workshop.unity
+    Name: Workshop
+    Hidden: 0
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/_TS Engine.unity
+    Name: _TS Engine
+    Hidden: 0
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/6K test/6K Lab.unity
+    Name: 6K Lab
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/6K test/6K Workshop.unity
+    Name: 6K Workshop
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/6K test/_6K TS Engine.unity
+    Name: _6K TS Engine
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/dale/dale_engine.unity
+    Name: dale_engine
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/dale/dale_tavern.unity
+    Name: dale_tavern
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/dale/dale_workshop.unity
+    Name: dale_workshop
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/dale/email_test.unity
+    Name: email_test
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/dale/fallback_fix.unity
+    Name: fallback_fix
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/dale/FieldNoteTest.unity
+    Name: FieldNoteTest
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/dale/pixel_offset_test.unity
+    Name: pixel_offset_test
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/dale/scene_loader_fix_tavern.unity
+    Name: scene_loader_fix_tavern
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/dale/scene_loading_fix.unity
+    Name: scene_loading_fix
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/dale/textmeshpro.unity
+    Name: textmeshpro
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/dale/vrpanorama.unity
+    Name: vrpanorama
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/dale/vrpanorama_collider.unity
+    Name: vrpanorama_collider
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/dale/vrpanorama_depth.unity
+    Name: vrpanorama_depth
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/dale/vr_depth_test.unity
+    Name: vr_depth_test
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/dale/vr_depth_test_new.unity
+    Name: vr_depth_test_new
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/dale/vr_hires.unity
+    Name: vr_hires
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/dale/vr_panorama_colormap_collision.unity
+    Name: vr_panorama_colormap_collision
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/dale/workshop_vrpanoramacolliderdepth.unity
+    Name: workshop_vrpanoramacolliderdepth
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/dale/_timesnap_engine_vrpanoramacolliderdepth.unity
+    Name: _timesnap_engine_vrpanoramacolliderdepth
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/Old Scenes/Effect God Ray.unity
+    Name: Effect God Ray
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/Old Scenes/High Res test.unity
+    Name: High Res test
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/Old Scenes/Made for Dale.unity
+    Name: Made for Dale
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/Old Scenes/Maybe Final (Debug).unity
+    Name: Maybe Final (Debug)
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/Old Scenes/Maybe Final.unity
+    Name: Maybe Final
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/Old Scenes/Prototype 1210 Demo.unity
+    Name: Prototype 1210 Demo
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/Old Scenes/Prototype January Demo.unity
+    Name: Prototype January Demo
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/Old Scenes/Prototype.unity
+    Name: Prototype
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/Old Scenes/UI Hotspot.unity
+    Name: UI Hotspot
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/Old Scenes/UI HUD.unity
+    Name: UI HUD
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/Old Scenes/UI Item Pop Up.unity
+    Name: UI Item Pop Up
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/Old Scenes/UI Map.unity
+    Name: UI Map
+    Hidden: 1
+  - Autoplay: 0
+    Path: Timesnap/Titles/Timesnap1/Scenes/Old Scenes/UI Text Pop Up.unity
+    Name: UI Text Pop Up
+    Hidden: 1
+  ShowHidden: 0
+  EditorBuildScenes: []

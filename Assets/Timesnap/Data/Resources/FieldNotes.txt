@@ -1,0 +1,43 @@
+Unique ID	Note	Source(s)	Tag	Conflicted	[MM/Doc/Object]	[Potential Cause]	
+			 				
+aft_01	Boston officials published their own account of the massacre.	CARPA	The Aftermath		Doc	N	The Aftermath
+aft_02	Captain Preston faced the death penalty if convicted of murder.	Preston	The Aftermath		MM	N	The Aftermath
+aft_03	Captain Preston sent a secret letter to London proclaiming his innocence and criticizing Boston.	Preston	The Aftermath		MM	N	The Aftermath
+aft_04	Captain Preston was arrested and held in jail after the massacre.	Preston	The Aftermath		Doc	N	The Aftermath
+aft_05	Preston wrote to the Boston Gazette to thank the people of Boston for their support a week after the massacre.	Preston	The Aftermath		Doc	N	The Aftermath
+aft_06	"The Bloody Massacre" roused people's anger against the British.	Revere	The Aftermath		MM		The Aftermath
+aft_07	Revere made a profit from his printmaking.	Tavernkeeper, Revere Ad	The Aftermath		MM		The Aftermath
+aft_08	Paul Revere created the "Troops Landing" print weeks after the Boston Massacre.	CARPA	The Aftermath		Doc		The Aftermath
+mil_01	The people of Boston provoked and abused British soldiers.	Preston, Tavenkeeper	Military Occupation		Doc, +?	Y	Military Occupation
+mil_02	Newly arrived British troops were disrespectful towards the people of Boston.	Revere	Military Occupation		Doc	Y	Military Occupation
+mil_03	Thomas Preston was a captain in the 29th Regiment.	CARPA, CARPA	Military Occupation		Doc, Doc		Military Occupation
+mil_04	The British sent soldiers to Boston to enforce the Townshend Acts.	CARPA	Military Occupation		Doc		Military Occupation
+mil_05	The people of Boston were unhappy about the arrival of British troops.	Preston	Military Occupation		Doc	Y	Military Occupation
+mil_06	The Earl of Hillsborough sent soldiers to Boston to enforce the Townshend Acts.	Revere	Military Occupation		Doc		Military Occupation
+mil_07	"Landing of the Troops" connected the troop's landing to the unrest in Boston.	Revere	Military Occupation		MM		Military Occupation
+mil_08	The arrival of British troops in 1768 felt like an act of war.	Revere, Tavernkeeper	Military Occupation		Doc, MM		Military Occupation
+mil_09	Over 1,000 soldiers were sent to a town of approximately 15,000.	CARPA	Military Occupation		Doc		Military Occupation
+mil_10	The Earl of Hillsborough was responsible for administering Britain's colonies in America.	CARPA	Military Occupation		Doc		Military Occupation
+nof_01	The crowd was armed.	Preston	The Night Of	nof_04	MM	Y	The Night Of
+nof_02	Captain Preston wrote that he was innocent of any wrongdoing in the massacre.	Preston	The Night Of	nof_06	Doc	N	The Night Of
+nof_03	Captain Preston did not order his soldiers to fire.	Preston, Tavern customer	The Night Of	nof_06	MM, MM	N	The Night Of
+nof_04	The crowd was peaceful and unarmed.	Revere	The Night Of	nof_01, nof_07	Doc		The Night Of
+nof_05	British soldiers smiled as they fired into the crowd.	Revere	The Night Of		Doc		The Night Of
+nof_06	Captain Preston ordered his soldiers to fire.	Revere, Tavern customer	The Night Of	nof_03, nof_02	Doc, MM		The Night Of
+nof_07	The crowd threw ice at the soldiers.	Tavern customer	The Night Of	nof_04	MM		The Night Of
+nof_08	Five men died in the massacre.	Tavern customer	The Night Of		MM		The Night Of
+rop_01	British soldiers were paid so little that they looked for extra work.	Preston 	Ropewalk Fight		Doc	Y	Ropewalk Fight
+rop_02	British soldiers competed with townspeople for work.	Tavern customer	Ropewalk Fight		MM		Ropewalk Fight
+rop_03	The British soldiers provoked ropewalk workers.	Tavern customer	Ropewalk Fight	rop_04	MM		Ropewalk Fight
+rop_04	Ropewalk workers insulted and provoked British soldiers	Preston	Ropewalk Fight	rop_03	Doc		Ropewalk Fight
+rop_05	Soldiers of the 29th regiment were looking for revenge after the fight at the ropewalk.	Tavern customer	Ropewalk Fight		MM		Ropewalk Fight
+rop_06	Soldiers from the 29th regiment fought with ropewalk workers a few days before the massacre.	Tavern customer, Preston	Ropewalk Fight		MM, Doc		Ropewalk Fight
+tax_01	The Townshend Acts taxed consumer goods like paper and glass.	CARPA, CARPA	Taxation		Obj, Doc	Y	Taxation
+tax_02	Ninety-two Massachusetts represenatives denounced the Townshend Acts in 1768.	CARPA	Taxation		Obj	Y	Taxation
+tax_03	Merchants smuggled goods past British customs agents to evade taxation.	CARPA, Tavernkeeper	Taxation		Obj, MM	Y	Taxation
+tax_04	Paul Revere was a member of the Sons of Liberty.	Revere	Taxation		MM		Taxation
+tax_05	The Sons of Liberty were a secret organization  formed in 1765 to resist British taxation. 	Revere	Taxation		MM		Taxation
+tax_06	Colonists boycotted taxed goods to protest the Townshend Acts.	Revere	Taxation		MM	Y	Taxation
+tax_07	Revere objected to paying taxes when he and other colonists were not represented in Parliament.	Revere	Taxation		MM		Taxation
+tax_08	Parliament repealed the Stamp Act in 1766 after colonial protests.	Revere	Taxation		MM		Taxation
+tax_09	British soldiers assisted customs agents catch smugglers.	Tavernkeeper	Taxation		MM		Taxation

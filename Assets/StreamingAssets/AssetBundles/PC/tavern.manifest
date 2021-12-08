@@ -1,0 +1,69 @@
+ManifestFileVersion: 0
+CRC: 882852948
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 87aa5a943066ca81e24d4c01866745ba
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 63cc72860e0b5a073863146926d936a8
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/tavern_mug_C.png
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/tavern_revere_ads_L.png
+- Assets/Timesnap/Titles/Timesnap1/Materials/tavern map.jpg
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/Tavern_A_Ropewalker_L.jpg
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/Tavern_keeper_L.png
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/Tavern_B_keeper_L.jpg
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/Tavern_A_Empty_L.jpg
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/tavern_madiera_L.png
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/tavern_preston_notice_L.png
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/tavern_woolder_C.png
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/tavern_madiera_C.png
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/tavern_revere_ads_C.png
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/tavern_B_Z.png
+- Assets/Timesnap/Titles/Timesnap1/Materials/revere ads.png
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/Tavern_Loyalist_C.png
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/tavern_mug_L.png
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/Tavern_B_Empty_L.jpg
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/tavern_B_Z_L.jpg
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/Tavern_wf_L.jpg
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/tavern_A_Z_L.jpg
+- Assets/Timesnap/Titles/Timesnap1/Models/club.FBX
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/Tavern_C_Empty_L.jpg
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/tavern_woolder_L.png
+- Assets/Timesnap/Titles/Timesnap1/Models/Madiera.FBX
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/tavern_preston_notice_C.png
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/tavern_C_Z.png
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/Tavern_Ropewalker_C.png
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/Tavern_Ropewalker_L.png
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/Tavern_citizen_C.png
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/Tavern_citizen_L.png
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/tavern_C_Z_L.jpg
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/tavern_A_Z.png
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/Tavern_keeper_C.png
+- Assets/Timesnap/Titles/Timesnap1/Sprites/newspaper_small_cut.png
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/Tavern_Loyalist_L.png
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/Tavern_A_Loyalist_L.jpg
+- Assets/Timesnap/Titles/Timesnap1/Panos/Timesnap 1 texture/Tavern/Tavern_C_Citizen_L.jpg
+Dependencies: []

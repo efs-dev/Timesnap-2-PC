@@ -1,0 +1,134 @@
+dearVR v1.2.1 - QUICK START GUIDE
+
+
+1. IMPORT
+- Import the dearVR Asset to your project.
+
+2. SETUP
+- In Unity AudioManager set Spatializer Plugin to dearVR Engine. Go to menu bar Edit -> Project Setting -> Audio -> Spatializer Plugin. 
+
+3. LISTEN
+- Run the dearVR Demo Scene. 
+
+Alternatively:
+
+- Add DearVRManager component to a game object in your scene.
+- Create a new game object and add the DearVRSource component.
+
+Note: In the Demo Scene move with WASD and rotate with mouse down. You can change a room preset or any other parameter on a DearVRSource anytime. Press keys “R” and “T” to switch presets and keys “F” and “G” to switch audioclip.
+
+
+___
+
+USING dearVR REVERB SENDS
+
+To illustrate how to use dearVR Reverb Sends enable dearVRSource_Send object (and disable dearVRSource_internal) in the dearVR Demo Scene.
+
+or: 
+
+1. Create an Audio Mixer and add a new group (e.g. name it Reverb Bus 1).
+
+2. Right-click on that group, add effect at top and select dearVR Reverb.
+Repeat Steps 1. & 2. for more groups and Reverb Plugin instances (i.e. using multiple Reverb Groups for different room presets).
+
+3. Select the dearVR Reverb Plugin, choose a room preset (in the Inspector Window) and set the Reverb ID between 1 and 100!
+IMPORTANT: Each dearVR Reverb Plugin needs a unique Reverb ID!
+
+4. For each dearVRSource set INTERNAL REVERB to OFF. Use SIZE to set the numbers (size) of dearVR Reverb Plugins you want to address with the audio source.
+NOTICE: Select the same room preset for a source object as for the main Reverb Plugin to use the corresponding early reflections.
+
+5. Set Reverb ID(s) and Send-Level(s). The Reverb ID(s) determines the Reverb Plugins the selected source object sends signal to.
+NOTICE: SEND determines the individual Send Level to a Reverb Plugin while REVRB LEVEL (in the LEVELS Section) acts as a Master Send Fader for all Reverb Groups (if using multiple Reverb Groups).
+
+6. For each dearVR Source set the AudioSources Output to Audio Mixer Master. 
+WARNING: Do not send the AudioSources output to the Reverb Bus!
+Otherwise the binaural signal gets processed by the dearVR Reverb again!
+
+
+___
+
+UPDATING dearVR WITHIN AN EXISTING PROJECT:
+
+OSX:
+
+Just import the new dearVR Asset and restart Unity.
+
+
+WINDOWS:
+
+1. Close Unity
+
+2. Use the Windows Explorer to delete the file AudioPluginDearVR.dll in your projects folder Assets/Plugins/x86_64 (or x86, depending on your system). 
+
+3. Open your Unity Project
+
+4. Import the new dearVR Asset.
+
+5. Restart Unity.
+
+NOTICE: Not following these steps leads to the warning "Copying file failed" because AudioPluginDearVR.dll is still loaded in the Unity Editor.
+
+
+___
+
+MOBILE DEVELOPMENT iOS & ANDROID:
+
+1. Default sample rate on mobile is 24000 Hz. You may change sample rate to 44100 Hz or 48000 Hz for higher quality in trade of performance. To change sample rate go to menu bar Edit -> Project Setting -> Audio
+
+2. Best practice is to use Reverb Sends and set DSP Buffer Size in the Audio Manager to Best Performance.
+
+iOS:
+
+In your Xcode-Project open /Classes/UnityAppController.mm. 
+
+1. Add the line:
+#include "../Libraries/Plugins/iOS/AudioPluginInterface.h"
+
+2. In the same file replace line:
+- (void)preStartUnity {}
+with
+- (void)preStartUnity { UnityRegisterAudioPlugin(&UnityGetAudioEffectDefinitions ) ; }
+
+
+___
+
+CHANGELOG dearVR v1.2.1
+- added API documentation
+- updated dearVR demo scene
+- updated DearVRScriptLoad.cs example 
+- disabled Bitcode for iOS
+- Fixed minor bugs
+
+KNOWN ISSUE: Reflections_Only preset not working with „Auralization“. To process reflections only with Auralization please select another room preset and uncheck „internal reverb“ (without sending it to any Reverb ID)
+
+
+CHANGELOG dearVR v1.2.0
+- Added Obstruction feature
+- Optimized Performance for Internal Reverb
+- Optimized Auralization
+- Fixed minor bugs
+
+
+CHANGELOG dearVR v1.1.1
+WARNING: Due to changes in Unity's (5.3.6+) internal audio engine, left and right channels have to be summed. So the value 0.0 is fixed now and the parameter is depricated. We recommend to recheck your mix and work with mono files from now on.
+- Fixed input channel paremter to 0.0
+- Fixed not playing sources after deactivation and reactivation
+- Enabled mono audio clips for spatialization
+- Enabled ENABLE_BITCODE for iOS
+- Enabled dearVRPlayOnAwake on OnEnable
+- Auto detecting Android architecture as ARMv7 now
+
+
+
+CHANGELOG dearVR v1.1
+- Changed Distance Correction range to [0.01 m - 10 m]
+- Changed Occlusion default to 0.6
+- Changed Occlusion Update Intervall default to 0.2
+- Changed Occlusion Raycast start to Audio Listener (was Camera before) 
+- Added Force Occlusion flag
+- Added Mute (no processing) flag to Reverb Bus
+- Added Performance-Mode: not processing spatial audio sources, that aren't playing. 
+- Added Reverb Tail after stop in Performance-Mode (only useful for Internal Reverb) 
+- Solved bug in Windows on performance overload
+
+
