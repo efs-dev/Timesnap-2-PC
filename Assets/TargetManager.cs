@@ -5,7 +5,6 @@ using System.Linq;
 
 public class TargetManager : MonoBehaviour
 {
-#if UNITY_WEBGL
     public static VRButton Target { get; private set; }
     private static Dictionary<Collider, Vector3> _collisionPoints = new Dictionary<Collider, Vector3>();
 
@@ -19,13 +18,13 @@ public class TargetManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
         var lastTarget = Target;
         Target = null;
 
         var ray = new Ray(Camera.main.transform.position, (EFS.Timesnap.VR.TimesnapVRPlayer.Instance.Pointer.transform.position - Camera.main.transform.position).normalized);
 
-        var popup = FindObjectsOfType<Popup>().ToList().Find(x=>x.enabled);
+        var popup = FindObjectsOfType<Popup>().ToList().Find(x => x.enabled);
 
 
         IsPopupOpen = popup != null;
@@ -38,12 +37,16 @@ public class TargetManager : MonoBehaviour
         {
             var collider = x.GetComponent<Collider>();
 
+            Debug.Log("testing " + x + " for collider " + collider);
+
             if (collider == null)
                 return;
 
+            Debug.Log("   - testing for intersection");
             float distance = 0;
             if (collider.bounds.IntersectRay(ray, out distance))
             {
+                Debug.Log("   - has intersection");
                 Target = x;
                 if (!Input.GetMouseButton(1))
                     x.OnPointerEnter(null);
@@ -55,7 +58,7 @@ public class TargetManager : MonoBehaviour
                 else
                     _collisionPoints[collider] = collisionPoint;
 
-                
+
                 if (!Input.GetMouseButton(1))
                 {
                     if (Input.GetMouseButtonDown(0))
@@ -63,11 +66,10 @@ public class TargetManager : MonoBehaviour
                     else if (Input.GetMouseButtonUp(0))
                         x.OnPointerUp(null);
                 }
-            }            
+            }
         });
 
         if (lastTarget != null && lastTarget != Target)
             lastTarget.OnPointerExit(null);
     }
-#endif
 }

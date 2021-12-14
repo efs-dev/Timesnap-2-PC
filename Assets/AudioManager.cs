@@ -62,7 +62,7 @@ public partial class AudioManager : MonoBehaviour
 
         foreach (var entry in data.Entries.Values)
         {
-            Debug.Log("adding entry: " + entry.Id + " - " + entry.Path);
+            //Debug.Log("adding entry: " + entry.Id + " - " + entry.Path);
 #if UNITY_EDITOR || UNITY_STANDALONE
             RegisterStreamingAudio(entry.Id, entry.Group, entry.MixerId, entry.Path.Replace(".mp3", "").Replace(".ogg", "") + ".mp3", 1); //RegisterStreamingAudio(entry.Id, entry.Group, entry.MixerId, entry.Path.Replace(".mp3", "").Replace(".ogg", "") + ".ogg", 1);
 #else
@@ -124,12 +124,12 @@ public partial class AudioManager : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
         var volumes = audioData.GetSampleVolumes(400);
-        
 
-       // var filenameStart = file.LastIndexOf("\\");
+
+        // var filenameStart = file.LastIndexOf("\\");
         var filenameEnd = file.LastIndexOf(".");
         var filename = file.Substring(0, filenameEnd) + ".txt";
-       // var sr = File.CreateText(Application.dataPath + "/Game/Data/DialogVolumes/" + filename);
+        // var sr = File.CreateText(Application.dataPath + "/Game/Data/DialogVolumes/" + filename);
         var bytes = new byte[volumes.Length];
         for (var i = 0; i < volumes.Length; i++)
         {
@@ -139,7 +139,7 @@ public partial class AudioManager : MonoBehaviour
         }
 
         File.WriteAllBytes(filename, bytes);
-      //  sr.Close();
+        //  sr.Close();
         UnregisterAudio(file);
     }
 #endif
@@ -148,7 +148,7 @@ public partial class AudioManager : MonoBehaviour
     {
         string path;
 #if UNITY_EDITOR_WIN
-        path = "file:" + Application.dataPath + "/StreamingAssets/Audio";
+        path = "file:" + Application.dataPath + "/StreamingAssets";
 #elif UNITY_EDITOR_OSX
 	    path = "file://" + Application.dataPath + "/StreamingAssets";
 #elif UNITY_ANDROID
@@ -953,53 +953,35 @@ public class Audio
         if (path.StartsWith("/"))
             path = path.Remove(0, 1);
 
-#if UNITY_WEBGL //&& !UNITY_EDITOR
-
-        bool stream = true;
-#if UNITY_EDITOR
-        stream = true;
-#endif
-        if (stream)
+        Debug.Log("trying to load audio clip");
+        using (UnityWebRequest www = UnityWebRequestMultimedia.GetAudioClip(AudioManager.GetStreamingPath() + "/Audio/" + path, AudioType.MPEG))
         {
+            Debug.Log("sending audio clip request " + www.url);
+            yield return www.SendWebRequest();
+            Debug.Log("got audio clip request");
 
-            Debug.Log("trying to load audio clip");
-            using (UnityWebRequest www = UnityWebRequestMultimedia.GetAudioClip(AudioManager.GetStreamingPath() + "/" + path, AudioType.MPEG))
+            /*
+        WWW www = new WWW(GetStreamingPath() + "/" + path);
+        yield return www;
+        if (!string.IsNullOrEmpty(www.error))
+            Debug.LogError("Error loading audio at path " + www.url + " with error: " + www.error);
+            */
+            AudioClip clip = null;
+
+            if (www.isNetworkError)
             {
-                Debug.Log("sending audio clip request " + www.url);
-                yield return www.SendWebRequest();
-                Debug.Log("got audio clip request");
-
-                /*
-            WWW www = new WWW(GetStreamingPath() + "/" + path);
-            yield return www;
-            if (!string.IsNullOrEmpty(www.error))
-                Debug.LogError("Error loading audio at path " + www.url + " with error: " + www.error);
-                */
-                AudioClip clip = null;
-
-                if (www.isNetworkError)
-                {
-                    Debug.Log(www.error);
-                }
-                else
-                {
-                    Debug.Log("getting audioclip content");
-                    clip = DownloadHandlerAudioClip.GetContent(www);
-                    Debug.Log("clip: " + clip);
-                }
-                Debug.Log("clip: " + clip);
-        clip.LoadAudioData();
-        callback(clip);
+                Debug.Log(www.error);
             }
+            else
+            {
+                Debug.Log("getting audioclip content");
+                clip = DownloadHandlerAudioClip.GetContent(www);
+                Debug.Log("clip: " + clip);
+            }
+            Debug.Log("clip: " + clip);
+            clip.LoadAudioData();
+            callback(clip);
         }
-        else
-        {
-            callback(Resources.Load<AudioClip>(path.AsResource()));
-        }
-
-#else
-        callback(Resources.Load<AudioClip>(path.AsResource()));
-#endif
         yield break;
     }
 }
