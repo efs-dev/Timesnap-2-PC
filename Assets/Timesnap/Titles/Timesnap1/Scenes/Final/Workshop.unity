@@ -9312,7 +9312,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1720397241}
+  - {fileID: 1061729428}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11235,10 +11235,10 @@ GameObject:
   m_Component:
   - component: {fileID: 270131186}
   - component: {fileID: 270131189}
+  - component: {fileID: 270131188}
   - component: {fileID: 270131187}
   - component: {fileID: 270131190}
   - component: {fileID: 270131191}
-  - component: {fileID: 270131188}
   m_Layer: 0
   m_Name: location pin B
   m_TagString: Untagged
@@ -11312,8 +11312,8 @@ MonoBehaviour:
   ClickUp:
     m_PersistentCalls:
       m_Calls: []
---- !u!65 &270131188
-BoxCollider:
+--- !u!135 &270131188
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -11323,7 +11323,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Radius: 0.37
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &270131189
 MonoBehaviour:
@@ -20450,8 +20450,8 @@ GameObject:
   - component: {fileID: 361077764}
   - component: {fileID: 361077768}
   - component: {fileID: 361077767}
-  - component: {fileID: 361077765}
   - component: {fileID: 361077766}
+  - component: {fileID: 361077765}
   m_Layer: 0
   m_Name: hotspot
   m_TagString: Untagged
@@ -20530,8 +20530,8 @@ MonoBehaviour:
   ClickUp:
     m_PersistentCalls:
       m_Calls: []
---- !u!65 &361077766
-BoxCollider:
+--- !u!135 &361077766
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -20541,8 +20541,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
-  m_Center: {x: 0.00000023841858, y: 0, z: 0.00000008940697}
+  m_Radius: 0.5000003
+  m_Center: {x: 0, y: -0.00012207031, z: -7.275958e-12}
 --- !u!23 &361077767
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23391,8 +23391,8 @@ GameObject:
   - component: {fileID: 447781503}
   - component: {fileID: 447781507}
   - component: {fileID: 447781506}
-  - component: {fileID: 447781504}
   - component: {fileID: 447781505}
+  - component: {fileID: 447781504}
   m_Layer: 0
   m_Name: hotspot
   m_TagString: Untagged
@@ -23472,10 +23472,11 @@ MonoBehaviour:
   ClickUp:
     m_PersistentCalls:
       m_Calls: []
---- !u!65 &447781505
-BoxCollider:
+--- !u!135 &447781505
+SphereCollider:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 135503593240155962, guid: 43f0e983b350fcb4a8724ab1ae8a2d39,
+    type: 2}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 447781502}
@@ -23483,8 +23484,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
-  m_Center: {x: -0.000000029802322, y: 0.0000009536743, z: 0}
+  m_Radius: 0.5000003
+  m_Center: {x: 0, y: -0.00012207031, z: -7.275958e-12}
 --- !u!23 &447781506
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23666,8 +23667,8 @@ GameObject:
   - component: {fileID: 456382946}
   - component: {fileID: 456382950}
   - component: {fileID: 456382949}
-  - component: {fileID: 456382947}
   - component: {fileID: 456382948}
+  - component: {fileID: 456382947}
   m_Layer: 0
   m_Name: hotspot
   m_TagString: Untagged
@@ -23747,10 +23748,11 @@ MonoBehaviour:
   ClickUp:
     m_PersistentCalls:
       m_Calls: []
---- !u!65 &456382948
-BoxCollider:
+--- !u!135 &456382948
+SphereCollider:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 135250119616788040, guid: 43f0e983b350fcb4a8724ab1ae8a2d39,
+    type: 2}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 456382945}
@@ -23758,8 +23760,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.0000001, y: 1.0000005, z: 1.0000004}
-  m_Center: {x: 0, y: -0.0000009536743, z: 0.00000038632146}
+  m_Radius: 0.5000003
+  m_Center: {x: 0, y: -0.00012207031, z: -7.275958e-12}
 --- !u!23 &456382949
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26397,8 +26399,8 @@ GameObject:
   - component: {fileID: 560361693}
   - component: {fileID: 560361697}
   - component: {fileID: 560361696}
-  - component: {fileID: 560361694}
   - component: {fileID: 560361695}
+  - component: {fileID: 560361694}
   m_Layer: 0
   m_Name: hotspot
   m_TagString: Untagged
@@ -26477,8 +26479,8 @@ MonoBehaviour:
   ClickUp:
     m_PersistentCalls:
       m_Calls: []
---- !u!65 &560361695
-BoxCollider:
+--- !u!135 &560361695
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -26488,8 +26490,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.0000002, z: 1.0000002}
-  m_Center: {x: -0.000000059604645, y: -0.00000071525574, z: 0.000000032186506}
+  m_Radius: 0.5000003
+  m_Center: {x: 0, y: -0.00012207031, z: -7.275958e-12}
 --- !u!23 &560361696
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31534,8 +31536,8 @@ GameObject:
   - component: {fileID: 772394287}
   - component: {fileID: 772394291}
   - component: {fileID: 772394290}
-  - component: {fileID: 772394288}
   - component: {fileID: 772394289}
+  - component: {fileID: 772394288}
   m_Layer: 0
   m_Name: hotspot
   m_TagString: Untagged
@@ -31615,10 +31617,11 @@ MonoBehaviour:
   ClickUp:
     m_PersistentCalls:
       m_Calls: []
---- !u!65 &772394289
-BoxCollider:
+--- !u!135 &772394289
+SphereCollider:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 135687815235395994, guid: 43f0e983b350fcb4a8724ab1ae8a2d39,
+    type: 2}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 772394286}
@@ -31626,8 +31629,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.0000002, y: 1.0000005, z: 1.0000002}
-  m_Center: {x: 0.00000023841858, y: 0, z: 0.000000033115157}
+  m_Radius: 0.5000003
+  m_Center: {x: 0, y: -0.00012207031, z: -7.275958e-12}
 --- !u!23 &772394290
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -49648,8 +49651,8 @@ GameObject:
   - component: {fileID: 855179880}
   - component: {fileID: 855179884}
   - component: {fileID: 855179883}
-  - component: {fileID: 855179881}
   - component: {fileID: 855179882}
+  - component: {fileID: 855179881}
   m_Layer: 0
   m_Name: hotspot
   m_TagString: Untagged
@@ -49728,8 +49731,8 @@ MonoBehaviour:
   ClickUp:
     m_PersistentCalls:
       m_Calls: []
---- !u!65 &855179882
-BoxCollider:
+--- !u!135 &855179882
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -49739,8 +49742,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.0000002, z: 1.0000004}
-  m_Center: {x: 0, y: 0, z: -0.0000000989437}
+  m_Radius: 0.5000003
+  m_Center: {x: 0, y: -0.00012207031, z: -7.275958e-12}
 --- !u!23 &855179883
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -55589,8 +55592,8 @@ GameObject:
   - component: {fileID: 1018899083}
   - component: {fileID: 1018899087}
   - component: {fileID: 1018899086}
-  - component: {fileID: 1018899084}
   - component: {fileID: 1018899085}
+  - component: {fileID: 1018899084}
   m_Layer: 0
   m_Name: hotspot
   m_TagString: Untagged
@@ -55669,8 +55672,8 @@ MonoBehaviour:
   ClickUp:
     m_PersistentCalls:
       m_Calls: []
---- !u!65 &1018899085
-BoxCollider:
+--- !u!135 &1018899085
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -55680,8 +55683,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.0000005, z: 1.0000005}
-  m_Center: {x: 0, y: 0, z: 0.000000038146993}
+  m_Radius: 0.5000003
+  m_Center: {x: 0, y: -0.00012207031, z: -7.275958e-12}
 --- !u!23 &1018899086
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -56900,6 +56903,44 @@ Transform:
   m_Father: {fileID: 1352536195}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &1061729428
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Internal VRPanorama
+  m_Shader: {fileID: 4800000, guid: 6cc95f829d9ea4c4aa8061a05c8e81e0, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _LeftTexture:
+        m_Texture: {fileID: 2800000, guid: fd51e4d64642d0041a1a4132a7ca7550, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RightTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 1
+    - _LeftToRightEye: 0
+    - _TargetEye: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _LeftEyeOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _LeftEyeTiling: {r: 2, g: 1, b: 0, a: 0}
+    - _RightEyeOffset: {r: -0, g: -0, b: 0, a: 0}
+    - _RightEyeTiling: {r: 2, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1062310213
 GameObject:
   m_ObjectHideFlags: 0
@@ -64850,8 +64891,8 @@ GameObject:
   - component: {fileID: 1162871786}
   - component: {fileID: 1162871790}
   - component: {fileID: 1162871789}
-  - component: {fileID: 1162871787}
   - component: {fileID: 1162871788}
+  - component: {fileID: 1162871787}
   m_Layer: 0
   m_Name: hotspot
   m_TagString: Untagged
@@ -64930,8 +64971,8 @@ MonoBehaviour:
   ClickUp:
     m_PersistentCalls:
       m_Calls: []
---- !u!65 &1162871788
-BoxCollider:
+--- !u!135 &1162871788
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -64941,8 +64982,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.0000002, z: 1.0000002}
-  m_Center: {x: 0, y: 0, z: 0.00000013470651}
+  m_Radius: 0.5000003
+  m_Center: {x: 0, y: -0.00012207031, z: -7.275958e-12}
 --- !u!23 &1162871789
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -65222,8 +65263,8 @@ GameObject:
   - component: {fileID: 1180445062}
   - component: {fileID: 1180445066}
   - component: {fileID: 1180445065}
-  - component: {fileID: 1180445063}
   - component: {fileID: 1180445064}
+  - component: {fileID: 1180445063}
   m_Layer: 0
   m_Name: hotspot
   m_TagString: Untagged
@@ -65303,10 +65344,11 @@ MonoBehaviour:
   ClickUp:
     m_PersistentCalls:
       m_Calls: []
---- !u!65 &1180445064
-BoxCollider:
+--- !u!135 &1180445064
+SphereCollider:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 135299037660072768, guid: 43f0e983b350fcb4a8724ab1ae8a2d39,
+    type: 2}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1180445061}
@@ -65314,8 +65356,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.0000004, z: 1.0000004}
-  m_Center: {x: -0.00000023841858, y: -0.0000014305115, z: 0.0000000079472215}
+  m_Radius: 0.5000003
+  m_Center: {x: 0, y: -0.00012207031, z: -7.275958e-12}
 --- !u!23 &1180445065
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -67789,7 +67831,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1471705182}
+  - {fileID: 1596520004}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -72261,6 +72303,44 @@ Transform:
   m_Father: {fileID: 750402478}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &1397691535
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Internal VRPanorama
+  m_Shader: {fileID: 4800000, guid: 6cc95f829d9ea4c4aa8061a05c8e81e0, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2020
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _LeftTexture:
+        m_Texture: {fileID: 2800000, guid: be53970aede294742abe3d96e3add6da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RightTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 1
+    - _LeftToRightEye: 0
+    - _TargetEye: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _LeftEyeOffset: {r: -7.284345, g: -9.783951, b: 0, a: 0}
+    - _LeftEyeTiling: {r: 26.172523, g: 25.28395, b: 0, a: 0}
+    - _RightEyeOffset: {r: -7.13738, g: -9.771605, b: 0, a: 0}
+    - _RightEyeTiling: {r: 26.172523, g: 25.28395, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1397746536
 GameObject:
   m_ObjectHideFlags: 0
@@ -75455,44 +75535,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.2, z: 0.2}
   m_Center: {x: -0.01, y: 0, z: 0}
---- !u!21 &1471705182
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Internal VRPanorama
-  m_Shader: {fileID: 4800000, guid: 6cc95f829d9ea4c4aa8061a05c8e81e0, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2020
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _LeftTexture:
-        m_Texture: {fileID: 2800000, guid: d404e9dc65b25ad48b38b5acd5c34f41, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _RightTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _Alpha: 1
-    - _LeftToRightEye: 0
-    - _TargetEye: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _LeftEyeOffset: {r: -5.714706, g: -2.8144145, b: 0, a: 0}
-    - _LeftEyeTiling: {r: 24.094118, g: 7.3801804, b: 0, a: 0}
-    - _RightEyeOffset: {r: -5.597059, g: -2.8252254, b: 0, a: 0}
-    - _RightEyeTiling: {r: 24.094118, g: 7.3801804, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &1473139599
 GameObject:
   m_ObjectHideFlags: 0
@@ -87989,6 +88031,44 @@ Transform:
   m_Father: {fileID: 1417715040}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &1596520004
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Internal VRPanorama
+  m_Shader: {fileID: 4800000, guid: 6cc95f829d9ea4c4aa8061a05c8e81e0, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2020
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _LeftTexture:
+        m_Texture: {fileID: 2800000, guid: d404e9dc65b25ad48b38b5acd5c34f41, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RightTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 1
+    - _LeftToRightEye: 0
+    - _TargetEye: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _LeftEyeOffset: {r: -5.714706, g: -2.8144145, b: 0, a: 0}
+    - _LeftEyeTiling: {r: 24.094118, g: 7.3801804, b: 0, a: 0}
+    - _RightEyeOffset: {r: -5.597059, g: -2.8252254, b: 0, a: 0}
+    - _RightEyeTiling: {r: 24.094118, g: 7.3801804, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1597166619
 GameObject:
   m_ObjectHideFlags: 0
@@ -109388,44 +109468,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1717927080}
   m_Mesh: {fileID: 4300006, guid: 132818da95c2b6f4a9e36c4c8899bd11, type: 3}
---- !u!21 &1720397241
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Internal VRPanorama
-  m_Shader: {fileID: 4800000, guid: 6cc95f829d9ea4c4aa8061a05c8e81e0, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _LeftTexture:
-        m_Texture: {fileID: 2800000, guid: fd51e4d64642d0041a1a4132a7ca7550, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _RightTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _Alpha: 1
-    - _LeftToRightEye: 0
-    - _TargetEye: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _LeftEyeOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _LeftEyeTiling: {r: 2, g: 1, b: 0, a: 0}
-    - _RightEyeOffset: {r: -0, g: -0, b: 0, a: 0}
-    - _RightEyeTiling: {r: 2, g: 1, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &1721730071
 GameObject:
   m_ObjectHideFlags: 1
@@ -120739,7 +120781,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2050864775}
+  - {fileID: 1397691535}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -128403,8 +128445,8 @@ GameObject:
   - component: {fileID: 1995069206}
   - component: {fileID: 1995069210}
   - component: {fileID: 1995069209}
-  - component: {fileID: 1995069207}
   - component: {fileID: 1995069208}
+  - component: {fileID: 1995069207}
   m_Layer: 0
   m_Name: hotspot
   m_TagString: Untagged
@@ -128484,10 +128526,11 @@ MonoBehaviour:
   ClickUp:
     m_PersistentCalls:
       m_Calls: []
---- !u!65 &1995069208
-BoxCollider:
+--- !u!135 &1995069208
+SphereCollider:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 135402357126022478, guid: 43f0e983b350fcb4a8724ab1ae8a2d39,
+    type: 2}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1995069205}
@@ -128495,8 +128538,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.9999999, y: 1.0000001, z: 1.0000002}
-  m_Center: {x: -0.00000011920929, y: 0.00000047683716, z: -0.000000013158342}
+  m_Radius: 0.5000003
+  m_Center: {x: 0, y: -0.00012207031, z: -7.275958e-12}
 --- !u!23 &1995069209
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -130150,44 +130193,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!21 &2050864775
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Internal VRPanorama
-  m_Shader: {fileID: 4800000, guid: 6cc95f829d9ea4c4aa8061a05c8e81e0, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2020
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _LeftTexture:
-        m_Texture: {fileID: 2800000, guid: be53970aede294742abe3d96e3add6da, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _RightTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _Alpha: 1
-    - _LeftToRightEye: 0
-    - _TargetEye: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _LeftEyeOffset: {r: -7.284345, g: -9.783951, b: 0, a: 0}
-    - _LeftEyeTiling: {r: 26.172523, g: 25.28395, b: 0, a: 0}
-    - _RightEyeOffset: {r: -7.13738, g: -9.771605, b: 0, a: 0}
-    - _RightEyeTiling: {r: 26.172523, g: 25.28395, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &2055986585
 GameObject:
   m_ObjectHideFlags: 0
@@ -142179,11 +142184,11 @@ GameObject:
   m_Component:
   - component: {fileID: 2100476982}
   - component: {fileID: 2100476985}
+  - component: {fileID: 2100476984}
   - component: {fileID: 2100476983}
   - component: {fileID: 2100476986}
   - component: {fileID: 2100476987}
-  - component: {fileID: 2100476984}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: location pin A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142256,8 +142261,8 @@ MonoBehaviour:
   ClickUp:
     m_PersistentCalls:
       m_Calls: []
---- !u!65 &2100476984
-BoxCollider:
+--- !u!135 &2100476984
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -142267,7 +142272,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Radius: 0.37
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2100476985
 MonoBehaviour:

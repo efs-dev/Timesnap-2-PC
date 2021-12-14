@@ -7,13 +7,6 @@ namespace EFS.Timesnap.VR
 {
     public class Pointer : MonoBehaviour
     {
-        public static Pointer Instance { get; private set; }
-
-        private void Awake()
-        {
-            Instance = this;
-        }
-
         public TMP_Text TooltipLabel;
         public CanvasGroup TooltipContainer;
 

@@ -38,6 +38,8 @@ namespace Efs.PlayMaker.Actions
             EFS.Timesnap.VR.TimesnapVRPlayer.Instance.CCBox.SetActive(true);
             _audio = AudioManager.Play(Id, Loop ? -1 : 0, Volume);
 
+            Debug.Log("Play Audio: " + Id);
+
             if (KillOnSceneChange)
             {
                 AudioManager.AudioIdsToKill.Add(_audio.InstanceId);

@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Timesnap/Titles/Timesnap1/Scenes/Final/Preloader.unity
-    guid: 4f1f25144dd5b0d41862ef8a6e2048f6
+    path: Assets/Timesnap/Titles/Timesnap2/Scenes/_TS Engine B 2.unity
+    guid: 6301a5d5ae33db94d82fcdc472b0d29d
+  - enabled: 1
+    path: Assets/Timesnap/Titles/Timesnap2/Scenes/Lab2.unity
+    guid: 75b745524ee937a4690591e5825a5802
+  - enabled: 1
+    path: Assets/Timesnap/Titles/Timesnap2/Scenes/Boston.unity
+    guid: 9d0d6d0088fc5544dbc3e64d88927df6
+  - enabled: 1
+    path: Assets/Timesnap/Titles/Timesnap2/Scenes/Christiana.unity
+    guid: 526994e3408b9dc439cd5621d8744317
+  - enabled: 1
+    path: Assets/Timesnap/Titles/Timesnap2/Scenes/Cincinnati.unity
+    guid: d7e3d0ad577a0f84597b9b09325ae8f5
   m_configObjects: {}

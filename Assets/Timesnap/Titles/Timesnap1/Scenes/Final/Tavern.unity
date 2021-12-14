@@ -1529,44 +1529,6 @@ Transform:
   m_Father: {fileID: 1819179770}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &82835890
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Internal VRPanorama
-  m_Shader: {fileID: 4800000, guid: 6cc95f829d9ea4c4aa8061a05c8e81e0, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2010
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _LeftTexture:
-        m_Texture: {fileID: 2800000, guid: cfc8f13b2c132b241b802904653ee4a3, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _RightTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _Alpha: 1
-    - _LeftToRightEye: 0
-    - _TargetEye: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _LeftEyeOffset: {r: -11.2421875, g: -5.6992188, b: 0, a: 0}
-    - _LeftEyeTiling: {r: 32, g: 16, b: 0, a: 0}
-    - _RightEyeOffset: {r: -11.0703125, g: -5.6992188, b: 0, a: 0}
-    - _RightEyeTiling: {r: 32, g: 16, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &89442054
 GameObject:
   m_ObjectHideFlags: 0
@@ -3799,44 +3761,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 186757562}
   m_CullTransparentMesh: 0
---- !u!21 &187161431
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Internal VRPanorama
-  m_Shader: {fileID: 4800000, guid: 6cc95f829d9ea4c4aa8061a05c8e81e0, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2010
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _LeftTexture:
-        m_Texture: {fileID: 2800000, guid: bd27c918743f1e64f96cc6a2058f1cf5, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _RightTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _Alpha: 1
-    - _LeftToRightEye: 0
-    - _TargetEye: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _LeftEyeOffset: {r: -4.364151, g: -1.9220779, b: 0, a: 0}
-    - _LeftEyeTiling: {r: 15.456604, g: 5.3194804, b: 0, a: 0}
-    - _RightEyeOffset: {r: -4.254717, g: -1.9337662, b: 0, a: 0}
-    - _RightEyeTiling: {r: 15.456604, g: 5.3194804, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &189334899
 GameObject:
   m_ObjectHideFlags: 1
@@ -3921,7 +3845,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1636345502}
+  - {fileID: 1572080435}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4940,7 +4864,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 187161431}
+  - {fileID: 1530637980}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8704,10 +8628,10 @@ GameObject:
   m_Component:
   - component: {fileID: 412392980}
   - component: {fileID: 412392983}
+  - component: {fileID: 412392982}
   - component: {fileID: 412392981}
   - component: {fileID: 412392984}
   - component: {fileID: 412392985}
-  - component: {fileID: 412392982}
   m_Layer: 0
   m_Name: location pin B
   m_TagString: Untagged
@@ -8781,8 +8705,8 @@ MonoBehaviour:
   ClickUp:
     m_PersistentCalls:
       m_Calls: []
---- !u!65 &412392982
-BoxCollider:
+--- !u!135 &412392982
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -8792,7 +8716,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Radius: 0.37
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &412392983
 MonoBehaviour:
@@ -57173,7 +57097,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 82835890}
+  - {fileID: 1775963777}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -97190,6 +97114,44 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!21 &1530637980
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Internal VRPanorama
+  m_Shader: {fileID: 4800000, guid: 6cc95f829d9ea4c4aa8061a05c8e81e0, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2010
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _LeftTexture:
+        m_Texture: {fileID: 2800000, guid: bd27c918743f1e64f96cc6a2058f1cf5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RightTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 1
+    - _LeftToRightEye: 0
+    - _TargetEye: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _LeftEyeOffset: {r: -4.364151, g: -1.9220779, b: 0, a: 0}
+    - _LeftEyeTiling: {r: 15.456604, g: 5.3194804, b: 0, a: 0}
+    - _RightEyeOffset: {r: -4.254717, g: -1.9337662, b: 0, a: 0}
+    - _RightEyeTiling: {r: 15.456604, g: 5.3194804, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1535028473
 GameObject:
   m_ObjectHideFlags: 0
@@ -97308,6 +97270,44 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -0.00000011920929}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!21 &1544012372
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Internal VRPanorama
+  m_Shader: {fileID: 4800000, guid: 6cc95f829d9ea4c4aa8061a05c8e81e0, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2010
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _LeftTexture:
+        m_Texture: {fileID: 2800000, guid: c273e51aafe8ede4884ff7d2686cfa93, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RightTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 1
+    - _LeftToRightEye: 0
+    - _TargetEye: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _LeftEyeOffset: {r: -3.0589285, g: -1.9026316, b: 0, a: 0}
+    - _LeftEyeTiling: {r: 14.6285715, g: 5.389474, b: 0, a: 0}
+    - _RightEyeOffset: {r: -2.9714286, g: -1.9118422, b: 0, a: 0}
+    - _RightEyeTiling: {r: 14.6285715, g: 5.389474, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1545713222
 GameObject:
   m_ObjectHideFlags: 0
@@ -103201,6 +103201,44 @@ Transform:
   m_Father: {fileID: 1872987243}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &1572080435
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Internal VRPanorama
+  m_Shader: {fileID: 4800000, guid: 6cc95f829d9ea4c4aa8061a05c8e81e0, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _LeftTexture:
+        m_Texture: {fileID: 2800000, guid: 215f043e97c7d3346a10118f5d23168e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RightTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 1
+    - _LeftToRightEye: 0
+    - _TargetEye: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _LeftEyeOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _LeftEyeTiling: {r: 2, g: 1, b: 0, a: 0}
+    - _RightEyeOffset: {r: -0, g: -0, b: 0, a: 0}
+    - _RightEyeTiling: {r: 2, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1578740874
 GameObject:
   m_ObjectHideFlags: 0
@@ -103535,7 +103573,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2053551067}
+  - {fileID: 1544012372}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -104109,44 +104147,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!21 &1636345502
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Internal VRPanorama
-  m_Shader: {fileID: 4800000, guid: 6cc95f829d9ea4c4aa8061a05c8e81e0, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _LeftTexture:
-        m_Texture: {fileID: 2800000, guid: 215f043e97c7d3346a10118f5d23168e, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _RightTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _Alpha: 1
-    - _LeftToRightEye: 0
-    - _TargetEye: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _LeftEyeOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _LeftEyeTiling: {r: 2, g: 1, b: 0, a: 0}
-    - _RightEyeOffset: {r: -0, g: -0, b: 0, a: 0}
-    - _RightEyeTiling: {r: 2, g: 1, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &1636765719
 GameObject:
   m_ObjectHideFlags: 0
@@ -119872,6 +119872,44 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.2, z: 0.2}
   m_Center: {x: -0.01, y: 0, z: 0}
+--- !u!21 &1775963777
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Internal VRPanorama
+  m_Shader: {fileID: 4800000, guid: 6cc95f829d9ea4c4aa8061a05c8e81e0, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2010
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _LeftTexture:
+        m_Texture: {fileID: 2800000, guid: cfc8f13b2c132b241b802904653ee4a3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RightTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 1
+    - _LeftToRightEye: 0
+    - _TargetEye: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _LeftEyeOffset: {r: -11.2421875, g: -5.6992188, b: 0, a: 0}
+    - _LeftEyeTiling: {r: 32, g: 16, b: 0, a: 0}
+    - _RightEyeOffset: {r: -11.0703125, g: -5.6992188, b: 0, a: 0}
+    - _RightEyeTiling: {r: 32, g: 16, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1780374716
 GameObject:
   m_ObjectHideFlags: 0
@@ -137629,44 +137667,6 @@ Material:
     - _RightEyeOffset: {r: -0, g: -0, b: 0, a: 0}
     - _RightEyeTiling: {r: 2, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!21 &2053551067
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Internal VRPanorama
-  m_Shader: {fileID: 4800000, guid: 6cc95f829d9ea4c4aa8061a05c8e81e0, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2010
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _LeftTexture:
-        m_Texture: {fileID: 2800000, guid: c273e51aafe8ede4884ff7d2686cfa93, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _RightTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _Alpha: 1
-    - _LeftToRightEye: 0
-    - _TargetEye: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _LeftEyeOffset: {r: -3.0589285, g: -1.9026316, b: 0, a: 0}
-    - _LeftEyeTiling: {r: 14.6285715, g: 5.389474, b: 0, a: 0}
-    - _RightEyeOffset: {r: -2.9714286, g: -1.9118422, b: 0, a: 0}
-    - _RightEyeTiling: {r: 14.6285715, g: 5.389474, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &2062193525
 GameObject:
   m_ObjectHideFlags: 0
@@ -147154,10 +147154,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2100476982}
   - component: {fileID: 2100476985}
+  - component: {fileID: 2100476984}
   - component: {fileID: 2100476983}
   - component: {fileID: 2100476986}
   - component: {fileID: 2100476987}
-  - component: {fileID: 2100476984}
   m_Layer: 0
   m_Name: location pin A
   m_TagString: Untagged
@@ -147231,8 +147231,8 @@ MonoBehaviour:
   ClickUp:
     m_PersistentCalls:
       m_Calls: []
---- !u!65 &2100476984
-BoxCollider:
+--- !u!135 &2100476984
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -147242,7 +147242,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Radius: 0.37
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2100476985
 MonoBehaviour:

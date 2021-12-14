@@ -27,38 +27,32 @@ public class MouseLook : MonoBehaviour
     public float minimumY = -60F;
     public float maximumY = 60F;
 
-    public bool BorderScrolling = false;
 
     float rotationY = 0F;
 
     void Update()
     {
-        if (FindObjectOfType<SettingsScreen>() != null || FindObjectOfType<VRKeyboard>() != null)
-            return;
 
         var isLeft = Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A);
         var isRight = Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D);
         var isUp = Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W);
         var isDown = Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S);
 
-        if (BorderScrolling)
-        {
-            var mouseViewPoint = Camera.main.ScreenToViewportPoint(Input.mousePosition);
+        var mouseViewPoint = Camera.main.ScreenToViewportPoint(Input.mousePosition);
 
-            var border = 0.05f;
+        var border = 0.05f;
 
-            if (mouseViewPoint.x < border)
-                isLeft = true;
+        if (mouseViewPoint.x < border)
+            isLeft = true;
 
-            if (mouseViewPoint.x > 1 - border)
-                isRight = true;
+        if (mouseViewPoint.x > 1 - border)
+            isRight = true;
 
-            if (mouseViewPoint.y < border)
-                isDown = true;
+        if (mouseViewPoint.y < border)
+            isDown = true;
 
-            if (mouseViewPoint.y > 1 - border)
-                isUp = true;
-        }
+        if (mouseViewPoint.y > 1 - border)
+            isUp = true;
 
         if (!Input.GetMouseButton(1) && !Input.GetKey(KeyCode.LeftControl) &&
             !isLeft && !isRight && !isUp && !isDown)

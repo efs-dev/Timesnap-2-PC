@@ -105,9 +105,6 @@ public class VRButton : MonoBehaviour
         if (!VRInputHelper.IsPointerEnabled)
             return;
 
-        if (ShowTooltipOnRollover && !string.IsNullOrEmpty(TooltipText))
-            Pointer.Instance.ShowTooltipText(TooltipText);
-
         TimesnapVRPlayer.Instance.Pointer.SetHovering(true);
         Overbutton = this;
         Hovering.Value = true;
@@ -123,8 +120,6 @@ public class VRButton : MonoBehaviour
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        Pointer.Instance.HideTooltipText();
-
         if (!VRInputHelper.IsPointerEnabled)
             return;
 

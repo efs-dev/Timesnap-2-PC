@@ -524,7 +524,7 @@ public class VRPanorama : MonoBehaviour {
         var ete = FindObjectOfType<VREditModeTargetEye>();
         var targetEye = (int)VREditModeTargetEye.TargetEye;
 
-        /*
+
         if (Mode == Modes.Animation)
         {
             if (PartialImageSettings.Animation.LeftEyeTextures.Length > 0)
@@ -545,11 +545,11 @@ public class VRPanorama : MonoBehaviour {
                 PartialImageSettings.RightEye.RightEyeTexture = Texture;
             }
         }
-        */
+        
 
 
-        //if (Mode == Modes.Double)
-       // {
+        if (Mode == Modes.Double)
+        {
             var leftEyeTexture = Texture;
             var rightEyeTexture = PartialImageSettings.RightEye.RightEyeTexture;
 
@@ -576,7 +576,7 @@ public class VRPanorama : MonoBehaviour {
             UV.y = PartialImageSettings.LeftEye.LeftEyePosition.y / PartialImageSettings.Background.BackgroundSize.y;
             UV.width = PartialImageSettings.LeftEye.LeftEyeSize.x / (PartialImageSettings.Background.BackgroundSize.x/2);
             UV.height = PartialImageSettings.LeftEye.LeftEyeSize.y / PartialImageSettings.Background.BackgroundSize.y;
-        /*}
+        }
         else
         {
             mat.SetTexture("_LeftTexture", Texture);
@@ -590,7 +590,7 @@ public class VRPanorama : MonoBehaviour {
             UV.y = 0;
             UV.width = 1;
             UV.height = 1;
-        }*/
+        }
 
         if (EmptyTexture == null)
         {
