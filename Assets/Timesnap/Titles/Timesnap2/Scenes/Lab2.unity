@@ -57272,7 +57272,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &1582141901
 Canvas:
   m_ObjectHideFlags: 0
@@ -64315,7 +64315,7 @@ MonoBehaviour:
         stringParams:
         - 
         - FINISHED
-        - lab_print4
+        - lab_doc5
         byteData: 000000000000803f000000
         arrayParamSizes: 
         arrayParamTypes: []
