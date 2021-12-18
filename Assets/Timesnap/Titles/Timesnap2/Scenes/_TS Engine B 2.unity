@@ -2081,7 +2081,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: Load Christiana
+        toState: Load Lab 1st
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -2266,7 +2266,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 0}
+            value: {fileID: 2036297995}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -2497,7 +2497,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 0}
+            value: {fileID: 2036297995}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -2667,7 +2667,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 0}
+            value: {fileID: 2036297995}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -13591,13 +13591,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 0}
+          value: {fileID: 2036297995}
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 0}
+          value: {fileID: 970774710}
         fsmOwnerDefaultParams: []
         animationCurveParams: []
         functionCallParams: []
@@ -13769,7 +13769,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 0}
+          value: {fileID: 2036297995}
         fsmOwnerDefaultParams: []
         animationCurveParams: []
         functionCallParams: []
@@ -14589,13 +14589,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 0}
+          value: {fileID: 970774710}
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 0}
+          value: {fileID: 1097581923}
         fsmOwnerDefaultParams:
         - ownerOption: 1
           gameObject:
@@ -14604,7 +14604,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 0}
+            value: {fileID: 1292176421}
         - ownerOption: 1
           gameObject:
             useVariable: 0
@@ -14612,7 +14612,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 0}
+            value: {fileID: 489548618}
         animationCurveParams:
         - curve:
             serializedVersion: 2
@@ -14858,7 +14858,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101
-        actionIsOpen: 010101
+        actionIsOpen: 000101
         actionStartIndex: 000000001a0000001f000000
         actionHashCodes: f580fd01b2cf1000b2cf1000
         unityObjectParams: []
@@ -14871,7 +14871,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 0}
+            value: {fileID: 1292176421}
         - ownerOption: 1
           gameObject:
             useVariable: 0
@@ -14879,7 +14879,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 0}
+            value: {fileID: 1115821203}
         - ownerOption: 1
           gameObject:
             useVariable: 0
@@ -14887,7 +14887,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 0}
+            value: {fileID: 1825215657}
         animationCurveParams:
         - curve:
             serializedVersion: 2
@@ -63196,6 +63196,12 @@ Transform:
   m_Father: {fileID: 2002843946}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2036297995 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1837795465185136, guid: 25280058a06228442a947f24804f0a44,
+    type: 3}
+  m_PrefabInstance: {fileID: 1292176419}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2041745917
 GameObject:
   m_ObjectHideFlags: 0
