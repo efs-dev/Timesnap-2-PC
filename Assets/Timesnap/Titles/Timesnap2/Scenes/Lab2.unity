@@ -24990,44 +24990,6 @@ Transform:
   m_Father: {fileID: 770160300}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &301028789
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Internal VRPanorama
-  m_Shader: {fileID: 4800000, guid: 6cc95f829d9ea4c4aa8061a05c8e81e0, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _LeftTexture:
-        m_Texture: {fileID: 2800000, guid: b7b3db9fba701b84db483c867c14df19, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _RightTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _Alpha: 1
-    - _LeftToRightEye: 0
-    - _TargetEye: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _LeftEyeOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _LeftEyeTiling: {r: 2, g: 1, b: 0, a: 0}
-    - _RightEyeOffset: {r: -0, g: -0, b: 0, a: 0}
-    - _RightEyeTiling: {r: 2, g: 1, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &304250678
 GameObject:
   m_ObjectHideFlags: 0
@@ -36875,7 +36837,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 301028789}
+  - {fileID: 1766943364}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -67680,20 +67642,17 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.SendEventByName
         - Efs.PlayMaker.Actions.ActivateMultiGameObjects
         - Efs.PlayMaker.Actions.SetTMPText
-        - Efs.PlayMaker.Actions.SetTMPText
         - Efs.PlayMaker.Actions.PlayAudio
         customNames:
         - Turn On CC
         - 
         - 
         - 
-        - 
-        actionEnabled: 0001010001
-        actionIsOpen: 0001010001
-        actionStartIndex: 00000000040000000f0000001a00000025000000
-        actionHashCodes: ba7ea101d788ab05098fb400098fb400fff40600
+        actionEnabled: 00010101
+        actionIsOpen: 00010101
+        actionStartIndex: 00000000040000000f0000001a000000
+        actionHashCodes: ba7ea101d788ab05098fb400fff40600
         unityObjectParams:
-        - {fileID: 0}
         - {fileID: 0}
         fsmGameObjectParams:
         - useVariable: 0
@@ -67708,12 +67667,6 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: {fileID: 1951864117}
-        - useVariable: 1
-          name: TS_CC_TMP
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
         - useVariable: 1
           name: TS_CC_TMP
           tooltip: 
@@ -67773,12 +67726,6 @@ MonoBehaviour:
           networkSync: 0
           value: "Hello, agent, welcome to CARPA's \nTimeSnap Lab. I\u2019m Director
             Wells."
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Where do you wanna go first?
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -67796,19 +67743,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
         fsmIntParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
         - useVariable: 0
           name: 
           tooltip: 
@@ -67858,21 +67793,9 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {r: 0, g: 0, b: 0, a: 1}
         - useVariable: 0
           name: 
           tooltip: 
@@ -67883,16 +67806,15 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - 
-        - 
         - lab_intro1a
-        byteData: 00000000000000000000803f000000
+        byteData: 00000000000000803f000000
         arrayParamSizes: 0000000002000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmGameObject
         - HutongGames.PlayMaker.FsmGameObject
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1f000000120000000f000000010000000c0000001100000011000000110000000c00000013000000130000001100000011000000110000000100000003000000010000001300000005000000120000000100000010000000010000000f000000110000001900000003000000010000001300000005000000120000000100000010000000010000000f00000011000000190000000300000002000000010000000100000001000000
+        paramDataType: 1f000000120000000f000000010000000c0000001100000011000000110000000c00000013000000130000001100000011000000110000000100000003000000010000001300000005000000120000000100000010000000010000000f00000011000000190000000300000002000000010000000100000001000000
         paramName:
         - eventTarget
         - sendEvent
@@ -67920,24 +67842,13 @@ MonoBehaviour:
         - FloatVariable
         - UseColor
         - Color
-        - Note
-        - UseOwner
-        - GameObject
-        - TextField
-        - Text
-        - UseInt
-        - IntVariable
-        - UseFloat
-        - FloatVariable
-        - UseColor
-        - Color
         - Id
         - Volume
         - Loop
         - FinishImmediately
         - KillOnSceneChange
-        paramDataPos: 0000000000000000000000000000000000000000000000000100000002000000010000000000000001000000030000000400000005000000010000000000000002000000020000000000000001000000030000000000000004000000010000000600000000000000010000000500000003000000010000000200000006000000010000000700000002000000070000000100000002000000080000000c0000000d0000000e000000
-        paramByteDataSize: 000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000100000000000000000000000000000001000000000000000100000000000000000000000000000000000000010000000000000000000000000000000100000000000000010000000000000000000000000000000000000004000000010000000100000001000000
+        paramDataPos: 00000000000000000000000000000000000000000000000001000000020000000100000000000000010000000300000004000000050000000100000000000000020000000200000000000000010000000300000000000000040000000100000006000000000000000100000005000000090000000a0000000b000000
+        paramByteDataSize: 00000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000010000000000000000000000000000000100000000000000010000000000000000000000000000000000000004000000010000000100000001000000
     - name: lab_intro1b
       description: "I\u2019m in the control tower right in front of you."
       colorIndex: 0
@@ -74297,16 +74208,16 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.ActivateGameObject
         - HutongGames.PlayMaker.Actions.SendEventByName
         - Efs.PlayMaker.Actions.SetTMPText
-        - HutongGames.PlayMaker.Actions.AudioPlay
+        - Efs.PlayMaker.Actions.PlayAudio
         customNames:
         - 
         - Turn On CC
         - 
         - 
-        actionEnabled: 01010101
+        actionEnabled: 01000101
         actionIsOpen: 00000101
         actionStartIndex: 00000000050000000900000014000000
-        actionHashCodes: b2cf1000ba7ea101098fb40081294e04
+        actionHashCodes: b2cf1000ba7ea101098fb400fff40600
         unityObjectParams:
         - {fileID: 0}
         fsmGameObjectParams:
@@ -74325,14 +74236,6 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 1951864117}
-        - ownerOption: 1
-          gameObject:
-            useVariable: 1
-            name: TS_audio
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -74385,14 +74288,7 @@ MonoBehaviour:
           networkSync: 0
           value: "You\u2019ll soon be in the 1850s, the decade before the American
             \nCivil War, investigating the effects of the Fugitive Slave Law. "
-        fsmObjectParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          typeName: UnityEngine.AudioClip
-          value: {fileID: 8300000, guid: b07cdd67bb5aef741835d9aada2bd1bd, type: 3}
+        fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
@@ -74409,12 +74305,6 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 1
-          name: TS_volume
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 1
         fsmIntParams:
         - useVariable: 0
           name: 
@@ -74441,12 +74331,6 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 1
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams:
@@ -74460,13 +74344,13 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - 
-        - FINISHED
-        byteData: 000000000000
+        - lab_intro2
+        byteData: 0000000000000000803f000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000110000001100000001000000010000001f000000120000000f0000000100000003000000010000001300000005000000120000000100000010000000010000000f0000001100000019000000140000000f000000180000001100000017000000
+        paramDataType: 14000000110000001100000001000000010000001f000000120000000f0000000100000003000000010000001300000005000000120000000100000010000000010000000f00000011000000190000000300000002000000010000000100000001000000
         paramName:
         - gameObject
         - activate
@@ -74488,13 +74372,13 @@ MonoBehaviour:
         - FloatVariable
         - UseColor
         - Color
-        - gameObject
-        - volume
-        - oneShotClip
-        - WaitForEndOfClip
-        - finishedEvent
-        paramDataPos: 00000000000000000100000000000000010000000000000000000000000000000200000000000000030000000000000000000000010000000400000000000000050000000100000002000000000000000100000002000000000000000300000001000000
-        paramByteDataSize: 00000000000000000000000001000000010000000000000000000000000000000100000000000000010000000000000000000000000000000100000000000000010000000000000000000000000000000000000000000000000000000000000000000000
+        - Id
+        - Volume
+        - Loop
+        - FinishImmediately
+        - KillOnSceneChange
+        paramDataPos: 000000000000000001000000000000000100000000000000000000000000000002000000000000000300000000000000000000000100000004000000000000000500000001000000020000000000000001000000060000000a0000000b0000000c000000
+        paramByteDataSize: 00000000000000000000000001000000010000000000000000000000000000000100000000000000010000000000000000000000000000000100000000000000010000000000000000000000000000000000000004000000010000000100000001000000
     - name: lab_intro3
       description: CARPA wants you to determine what effect the law had on life in
         the Northern states.
@@ -74521,14 +74405,14 @@ MonoBehaviour:
       actionData:
         actionNames:
         - Efs.PlayMaker.Actions.SetTMPText
-        - HutongGames.PlayMaker.Actions.AudioPlay
+        - Efs.PlayMaker.Actions.PlayAudio
         customNames:
         - 
         - 
         actionEnabled: 0101
         actionIsOpen: 0101
         actionStartIndex: 000000000b000000
-        actionHashCodes: 098fb40081294e04
+        actionHashCodes: 098fb400fff40600
         unityObjectParams:
         - {fileID: 0}
         fsmGameObjectParams:
@@ -74538,15 +74422,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: {fileID: 0}
-        fsmOwnerDefaultParams:
-        - ownerOption: 1
-          gameObject:
-            useVariable: 1
-            name: TS_audio
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
+        fsmOwnerDefaultParams: []
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -74561,14 +74437,7 @@ MonoBehaviour:
           networkSync: 0
           value: "CARPA wants you to determine what effect \nthe law had on life
             in the Northern states."
-        fsmObjectParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          typeName: UnityEngine.AudioClip
-          value: {fileID: 8300000, guid: db008e2e130e709479bafc59a459deb8, type: 3}
+        fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
@@ -74579,12 +74448,6 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 1
-          name: TS_volume
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 1
         fsmIntParams:
         - useVariable: 0
           name: 
@@ -74599,12 +74462,6 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 1
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams:
@@ -74618,13 +74475,13 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - 
-        - FINISHED
-        byteData: 000000
+        - lab_intro3
+        byteData: 0000000000803f000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 03000000010000001300000005000000120000000100000010000000010000000f0000001100000019000000140000000f000000180000001100000017000000
+        paramDataType: 03000000010000001300000005000000120000000100000010000000010000000f00000011000000190000000300000002000000010000000100000001000000
         paramName:
         - Note
         - UseOwner
@@ -74637,13 +74494,13 @@ MonoBehaviour:
         - FloatVariable
         - UseColor
         - Color
-        - gameObject
-        - volume
-        - oneShotClip
-        - WaitForEndOfClip
-        - finishedEvent
-        paramDataPos: 00000000000000000000000000000000000000000100000000000000020000000000000000000000000000000000000001000000000000000100000001000000
-        paramByteDataSize: 00000000010000000000000000000000000000000100000000000000010000000000000000000000000000000000000000000000000000000000000000000000
+        - Id
+        - Volume
+        - Loop
+        - FinishImmediately
+        - KillOnSceneChange
+        paramDataPos: 00000000000000000000000000000000000000000100000000000000020000000000000000000000000000000100000003000000070000000800000009000000
+        paramByteDataSize: 00000000010000000000000000000000000000000100000000000000010000000000000000000000000000000000000004000000010000000100000001000000
     - name: lab_intro4
       description: 'The Fugitive Slave Law was part of the Compromise of 1850, which
         was passed in an attempt to avoid war. '
@@ -74670,14 +74527,14 @@ MonoBehaviour:
       actionData:
         actionNames:
         - Efs.PlayMaker.Actions.SetTMPText
-        - HutongGames.PlayMaker.Actions.AudioPlay
+        - Efs.PlayMaker.Actions.PlayAudio
         customNames:
         - 
         - 
         actionEnabled: 0101
         actionIsOpen: 0101
         actionStartIndex: 000000000b000000
-        actionHashCodes: 098fb40081294e04
+        actionHashCodes: 098fb400fff40600
         unityObjectParams:
         - {fileID: 0}
         fsmGameObjectParams:
@@ -74687,15 +74544,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: {fileID: 0}
-        fsmOwnerDefaultParams:
-        - ownerOption: 1
-          gameObject:
-            useVariable: 1
-            name: TS_audio
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
+        fsmOwnerDefaultParams: []
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -74710,14 +74559,7 @@ MonoBehaviour:
           networkSync: 0
           value: "The Fugitive Slave Law was part of the Compromise of \n1850, which
             was passed in an attempt to avoid war. "
-        fsmObjectParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          typeName: UnityEngine.AudioClip
-          value: {fileID: 8300000, guid: 1876a5ab5b8cfa74abf972c50fc23a3a, type: 3}
+        fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
@@ -74728,12 +74570,6 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 1
-          name: TS_volume
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 1
         fsmIntParams:
         - useVariable: 0
           name: 
@@ -74748,12 +74584,6 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 1
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams:
@@ -74767,13 +74597,13 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - 
-        - FINISHED
-        byteData: 000000
+        - lab_intro4
+        byteData: 0000000000803f000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 03000000010000001300000005000000120000000100000010000000010000000f0000001100000019000000140000000f000000180000001100000017000000
+        paramDataType: 03000000010000001300000005000000120000000100000010000000010000000f00000011000000190000000300000002000000010000000100000001000000
         paramName:
         - Note
         - UseOwner
@@ -74786,13 +74616,13 @@ MonoBehaviour:
         - FloatVariable
         - UseColor
         - Color
-        - gameObject
-        - volume
-        - oneShotClip
-        - WaitForEndOfClip
-        - finishedEvent
-        paramDataPos: 00000000000000000000000000000000000000000100000000000000020000000000000000000000000000000000000001000000000000000100000001000000
-        paramByteDataSize: 00000000010000000000000000000000000000000100000000000000010000000000000000000000000000000000000000000000000000000000000000000000
+        - Id
+        - Volume
+        - Loop
+        - FinishImmediately
+        - KillOnSceneChange
+        paramDataPos: 00000000000000000000000000000000000000000100000000000000020000000000000000000000000000000100000003000000070000000800000009000000
+        paramByteDataSize: 00000000010000000000000000000000000000000100000000000000010000000000000000000000000000000000000004000000010000000100000001000000
     - name: Learn more?
       description: 
       colorIndex: 1
@@ -74969,15 +74799,17 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.SendEventByName
         - Efs.PlayMaker.Actions.SetTMPText
         - HutongGames.PlayMaker.Actions.AudioPlay
+        - Efs.PlayMaker.Actions.PlayAudio
         customNames:
         - 
         - Turn On CC
         - 
         - 
-        actionEnabled: 01010101
-        actionIsOpen: 00000101
-        actionStartIndex: 00000000050000000900000014000000
-        actionHashCodes: b2cf1000ba7ea101098fb40081294e04
+        - 
+        actionEnabled: 0101010001
+        actionIsOpen: 0000010101
+        actionStartIndex: 0000000005000000090000001400000019000000
+        actionHashCodes: b2cf1000ba7ea101098fb40081294e04fff40600
         unityObjectParams:
         - {fileID: 0}
         fsmGameObjectParams:
@@ -75132,12 +74964,13 @@ MonoBehaviour:
         stringParams:
         - 
         - FINISHED
-        byteData: 000000000000
+        - lab_intro5a
+        byteData: 0000000000000000803f000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000110000001100000001000000010000001f000000120000000f0000000100000003000000010000001300000005000000120000000100000010000000010000000f0000001100000019000000140000000f000000180000001100000017000000
+        paramDataType: 14000000110000001100000001000000010000001f000000120000000f0000000100000003000000010000001300000005000000120000000100000010000000010000000f0000001100000019000000140000000f0000001800000011000000170000000300000002000000010000000100000001000000
         paramName:
         - gameObject
         - activate
@@ -75164,8 +74997,13 @@ MonoBehaviour:
         - oneShotClip
         - WaitForEndOfClip
         - finishedEvent
-        paramDataPos: 00000000000000000100000000000000010000000000000000000000000000000200000000000000030000000000000000000000010000000400000000000000050000000100000002000000000000000100000002000000000000000300000001000000
-        paramByteDataSize: 00000000000000000000000001000000010000000000000000000000000000000100000000000000010000000000000000000000000000000100000000000000010000000000000000000000000000000000000000000000000000000000000000000000
+        - Id
+        - Volume
+        - Loop
+        - FinishImmediately
+        - KillOnSceneChange
+        paramDataPos: 0000000000000000010000000000000001000000000000000000000000000000020000000000000003000000000000000000000001000000040000000000000005000000010000000200000000000000010000000200000000000000030000000100000002000000060000000a0000000b0000000c000000
+        paramByteDataSize: 000000000000000000000000010000000100000000000000000000000000000001000000000000000100000000000000000000000000000001000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000004000000010000000100000001000000
     - name: lab_intro5b-
       description: This law was designed to end such escapes by strengthening an
         earlier fugitive slave law
@@ -75193,13 +75031,15 @@ MonoBehaviour:
         actionNames:
         - Efs.PlayMaker.Actions.SetTMPText
         - HutongGames.PlayMaker.Actions.AudioPlay
+        - Efs.PlayMaker.Actions.PlayAudio
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 000000000b000000
-        actionHashCodes: 098fb40081294e04
+        - 
+        actionEnabled: 010001
+        actionIsOpen: 010101
+        actionStartIndex: 000000000b00000010000000
+        actionHashCodes: 098fb40081294e04fff40600
         unityObjectParams:
         - {fileID: 0}
         fsmGameObjectParams:
@@ -75290,12 +75130,13 @@ MonoBehaviour:
         stringParams:
         - 
         - FINISHED
-        byteData: 000000
+        - lab_intro5b
+        byteData: 0000000000803f000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 03000000010000001300000005000000120000000100000010000000010000000f0000001100000019000000140000000f000000180000001100000017000000
+        paramDataType: 03000000010000001300000005000000120000000100000010000000010000000f0000001100000019000000140000000f0000001800000011000000170000000300000002000000010000000100000001000000
         paramName:
         - Note
         - UseOwner
@@ -75313,8 +75154,13 @@ MonoBehaviour:
         - oneShotClip
         - WaitForEndOfClip
         - finishedEvent
-        paramDataPos: 00000000000000000000000000000000000000000100000000000000020000000000000000000000000000000000000001000000000000000100000001000000
-        paramByteDataSize: 00000000010000000000000000000000000000000100000000000000010000000000000000000000000000000000000000000000000000000000000000000000
+        - Id
+        - Volume
+        - Loop
+        - FinishImmediately
+        - KillOnSceneChange
+        paramDataPos: 000000000000000000000000000000000000000001000000000000000200000000000000000000000000000000000000010000000000000001000000010000000200000003000000070000000800000009000000
+        paramByteDataSize: 000000000100000000000000000000000000000001000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000004000000010000000100000001000000
     - name: lab_intro5c
       description: The law compelled federal courts and lawmen in the North to arrest
         and try anyone suspected of being a fugitive; the accused were not allowed
@@ -75343,13 +75189,15 @@ MonoBehaviour:
         actionNames:
         - Efs.PlayMaker.Actions.SetTMPText
         - HutongGames.PlayMaker.Actions.AudioPlay
+        - Efs.PlayMaker.Actions.PlayAudio
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 000000000b000000
-        actionHashCodes: 098fb40081294e04
+        - 
+        actionEnabled: 010001
+        actionIsOpen: 010101
+        actionStartIndex: 000000000b00000010000000
+        actionHashCodes: 098fb40081294e04fff40600
         unityObjectParams:
         - {fileID: 0}
         fsmGameObjectParams:
@@ -75441,12 +75289,13 @@ MonoBehaviour:
         stringParams:
         - 
         - FINISHED
-        byteData: 000000
+        - lab_intro5c
+        byteData: 0000000000803f000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 03000000010000001300000005000000120000000100000010000000010000000f0000001100000019000000140000000f000000180000001100000017000000
+        paramDataType: 03000000010000001300000005000000120000000100000010000000010000000f0000001100000019000000140000000f0000001800000011000000170000000300000002000000010000000100000001000000
         paramName:
         - Note
         - UseOwner
@@ -75464,8 +75313,13 @@ MonoBehaviour:
         - oneShotClip
         - WaitForEndOfClip
         - finishedEvent
-        paramDataPos: 00000000000000000000000000000000000000000100000000000000020000000000000000000000000000000000000001000000000000000100000001000000
-        paramByteDataSize: 00000000010000000000000000000000000000000100000000000000010000000000000000000000000000000000000000000000000000000000000000000000
+        - Id
+        - Volume
+        - Loop
+        - FinishImmediately
+        - KillOnSceneChange
+        paramDataPos: 000000000000000000000000000000000000000001000000000000000200000000000000000000000000000000000000010000000000000001000000010000000200000003000000070000000800000009000000
+        paramByteDataSize: 000000000100000000000000000000000000000001000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000004000000010000000100000001000000
     - name: lab_intro6-
       description: However, CARPA historians have collected evidence suggesting that
         the Fugitive Slave Law actually heightened tensions between North and South.
@@ -75495,15 +75349,17 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.SendEventByName
         - Efs.PlayMaker.Actions.SetTMPText
         - HutongGames.PlayMaker.Actions.AudioPlay
+        - Efs.PlayMaker.Actions.PlayAudio
         customNames:
         - 
         - Turn On CC
         - 
         - 
-        actionEnabled: 01010101
-        actionIsOpen: 00000101
-        actionStartIndex: 00000000050000000900000014000000
-        actionHashCodes: b2cf1000ba7ea101098fb40081294e04
+        - 
+        actionEnabled: 0101010001
+        actionIsOpen: 0000010101
+        actionStartIndex: 0000000005000000090000001400000019000000
+        actionHashCodes: b2cf1000ba7ea101098fb40081294e04fff40600
         unityObjectParams:
         - {fileID: 0}
         fsmGameObjectParams:
@@ -75659,12 +75515,13 @@ MonoBehaviour:
         stringParams:
         - 
         - FINISHED
-        byteData: 000000000000
+        - lab_intro6
+        byteData: 0000000000000000803f000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000110000001100000001000000010000001f000000120000000f0000000100000003000000010000001300000005000000120000000100000010000000010000000f0000001100000019000000140000000f000000180000001100000017000000
+        paramDataType: 14000000110000001100000001000000010000001f000000120000000f0000000100000003000000010000001300000005000000120000000100000010000000010000000f0000001100000019000000140000000f0000001800000011000000170000000300000002000000010000000100000001000000
         paramName:
         - gameObject
         - activate
@@ -75691,8 +75548,13 @@ MonoBehaviour:
         - oneShotClip
         - WaitForEndOfClip
         - finishedEvent
-        paramDataPos: 00000000000000000100000000000000010000000000000000000000000000000200000000000000030000000000000000000000010000000400000000000000050000000100000002000000000000000100000002000000000000000300000001000000
-        paramByteDataSize: 00000000000000000000000001000000010000000000000000000000000000000100000000000000010000000000000000000000000000000100000000000000010000000000000000000000000000000000000000000000000000000000000000000000
+        - Id
+        - Volume
+        - Loop
+        - FinishImmediately
+        - KillOnSceneChange
+        paramDataPos: 0000000000000000010000000000000001000000000000000000000000000000020000000000000003000000000000000000000001000000040000000000000005000000010000000200000000000000010000000200000000000000030000000100000002000000060000000a0000000b0000000c000000
+        paramByteDataSize: 000000000000000000000000010000000100000000000000000000000000000001000000000000000100000000000000000000000000000001000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000004000000010000000100000001000000
     - name: lab_intro7
       description: Your mission is to document the effects of the law, you'll need
         to gather evidence from multiple locations across the north.
@@ -81629,6 +81491,44 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &1766943364
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Internal VRPanorama
+  m_Shader: {fileID: 4800000, guid: 6cc95f829d9ea4c4aa8061a05c8e81e0, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _LeftTexture:
+        m_Texture: {fileID: 2800000, guid: b7b3db9fba701b84db483c867c14df19, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RightTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 1
+    - _LeftToRightEye: 0
+    - _TargetEye: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _LeftEyeOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _LeftEyeTiling: {r: 2, g: 1, b: 0, a: 0}
+    - _RightEyeOffset: {r: -0, g: -0, b: 0, a: 0}
+    - _RightEyeTiling: {r: 2, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1774523438
 GameObject:
   m_ObjectHideFlags: 0
