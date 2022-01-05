@@ -20,6 +20,7 @@ namespace Efs.PlayMaker.Actions
 
         public bool FinishImmediately;
         public bool KillOnSceneChange;
+        public bool ShowCloseCaption = true;
 
         private Audio _audio;
         private bool _wasEnabled;
@@ -35,7 +36,11 @@ namespace Efs.PlayMaker.Actions
         {
             _wasEnabled = VRInputHelper.IsPointerEnabled;
             VRInputHelper.IsPointerEnabled = false;
-            EFS.Timesnap.VR.TimesnapVRPlayer.Instance.CCBox.SetActive(true);
+           
+            if (ShowCloseCaption)
+            {
+                EFS.Timesnap.VR.TimesnapVRPlayer.Instance.CCBox.SetActive(true);
+            }
             _audio = AudioManager.Play(Id, Loop ? -1 : 0, Volume);
 
             Debug.Log("Play Audio: " + Id);
@@ -56,9 +61,10 @@ namespace Efs.PlayMaker.Actions
         {
             if (Loop)
                 return;
-
+            Debug.Log("waiting");
             if (_audio.IsComplete)
             {
+                Debug.Log("complete");
                 Complete();
             }
         }
@@ -71,7 +77,10 @@ namespace Efs.PlayMaker.Actions
             _audio = null;
 
             VRInputHelper.IsPointerEnabled = true;// _wasEnabled;
-            EFS.Timesnap.VR.TimesnapVRPlayer.Instance.CCBox.SetActive(false);
+            if (ShowCloseCaption)
+            {
+                EFS.Timesnap.VR.TimesnapVRPlayer.Instance.CCBox.SetActive(false);
+            }
             Finish();
         }
     }
