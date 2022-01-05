@@ -40452,7 +40452,8 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1271845484, guid: 25280058a06228442a947f24804f0a44, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 25280058a06228442a947f24804f0a44, type: 3}
 --- !u!4 &1292176420 stripped
 Transform:
@@ -60325,6 +60326,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1974416174}
   m_CullTransparentMesh: 0
+--- !u!1 &1975562819 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1271845480, guid: 25280058a06228442a947f24804f0a44,
+    type: 3}
+  m_PrefabInstance: {fileID: 1292176419}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1975562820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975562819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd44320a369c7a74a9ab160493a14b33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axes: 0
+  ClampX: 1
+  ClampXValue: 40
+  minimumY: -40
+  maximumY: 40
+  BorderScrolling: 0
 --- !u!1 &1978800461
 GameObject:
   m_ObjectHideFlags: 0
