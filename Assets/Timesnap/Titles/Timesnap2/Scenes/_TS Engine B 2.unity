@@ -9839,7 +9839,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 80
-        y: 112
+        y: 128
         width: 100
         height: 32
       isBreakpoint: 0
@@ -9850,7 +9850,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: Load Lab 1st
+        toState: First time lab
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -9900,7 +9900,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 64
-        y: 192
+        y: 208
         width: 142
         height: 64
       isBreakpoint: 0
@@ -9996,7 +9996,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 320
-        y: 176
+        y: 192
         width: 133
         height: 32
       isBreakpoint: 0
@@ -10166,7 +10166,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 832
-        y: 256
+        y: 272
         width: 142
         height: 32
       isBreakpoint: 0
@@ -10227,7 +10227,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 320
-        y: 224
+        y: 240
         width: 131
         height: 32
       isBreakpoint: 0
@@ -10397,7 +10397,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 320
-        y: 272
+        y: 288
         width: 111
         height: 32
       isBreakpoint: 0
@@ -10567,7 +10567,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 320
-        y: 128
+        y: 144
         width: 115
         height: 32
       isBreakpoint: 0
@@ -10744,7 +10744,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1056
-        y: 176
+        y: 192
         width: 147
         height: 32
       isBreakpoint: 0
@@ -10904,7 +10904,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 560
-        y: 192
+        y: 208
         width: 132
         height: 32
       isBreakpoint: 0
@@ -11033,7 +11033,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 560
-        y: 240
+        y: 256
         width: 132
         height: 32
       isBreakpoint: 0
@@ -11162,7 +11162,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 560
-        y: 288
+        y: 304
         width: 132
         height: 32
       isBreakpoint: 0
@@ -11285,6 +11285,84 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 000000000100000000000000020000000300000001000000040000000500000002000000000000000100000003000000
         paramByteDataSize: 000000000000000001000000000000000000000001000000000000000000000001000000000000000000000001000000
+    - name: First time lab
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 332
+        y: 64
+        width: 107
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Load Christiana
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetBoolValue
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 27fbe103
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 1
+          name: first_time_lab
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 110000001100000001000000
+        paramName:
+        - boolVariable
+        - boolValue
+        - everyFrame
+        paramDataPos: 000000000100000000000000
+        paramByteDataSize: 000000000000000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -74694,9 +74772,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   axes: 0
   ClampX: 1
-  ClampXValue: 40
-  minimumY: -40
-  maximumY: 40
+  ClampXValue: 60
+  minimumY: -60
+  maximumY: 60
   BorderScrolling: 0
 --- !u!4 &1975562821 stripped
 Transform:
