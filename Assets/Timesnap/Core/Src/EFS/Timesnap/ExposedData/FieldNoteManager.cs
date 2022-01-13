@@ -18,13 +18,13 @@ public class FieldNoteManager : MonoBehaviour
         var lines = fieldNotes.text.Split(new string[] { "\n" }, StringSplitOptions.RemoveEmptyEntries).ToList();
         lines.RemoveAt(0);
 
-        //Debug.Log("lines: " + lines.Count);
+        Debug.Log("lines: " + lines.Count);
 
         lines.ForEach(line =>
         {
             var columns = line.Split(new string[] { "\t" }, StringSplitOptions.None);
 
-            Entries.Add(new FieldNoteEntry() { Id = columns[0].ToLower(), Note = columns[1], Sources = columns[2].Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries).ToList().ConvertAll(x => x.Trim()), Tags = columns[3].Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries).ToList().ConvertAll(x => x.Trim()), Conflicts = columns[4].Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries).ToList().ConvertAll(x=>x.Trim()) });
+            Entries.Add(new FieldNoteEntry() { Id = columns[0].ToLower(), Note = columns[1], Sources = columns[2].Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries).ToList().ConvertAll(x => x.Trim()), Tags = columns[3].Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries).ToList().ConvertAll(x => x.Trim()), Matches = columns[4].Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries).ToList().ConvertAll(x=>x.Trim()) });
         });
     }
 
@@ -38,6 +38,14 @@ public class FieldNoteManager : MonoBehaviour
         var fieldNote = Entries.Find(x => x.Id == id);
         return Entries.FindAll(x => x.Collected && (fieldNote.Conflicts.Contains(x.Id) || x.Conflicts.Contains(fieldNote.Id)));
     }
+
+    public static bool HasMatching(string id, bool debug = false)
+    {
+        var fieldNote = Entries.Find(x => x.Id == id);
+        var matches = fieldNote.Matches;
+
+        return Entries.FindAll(x => (x.Collected || debug) && (fieldNote.Matches.Contains(x.Id) || x.Matches.Contains(fieldNote.Id))).Count > 0;
+    }
 }
 
 public class FieldNoteEntry
@@ -48,6 +56,7 @@ public class FieldNoteEntry
     public string OverrideSource;
     public List<string> Tags = new List<string>();
     public List<string> Conflicts = new List<string>();
+    public List<string> Matches = new List<string>();
 
     public bool Collected = false;
 }

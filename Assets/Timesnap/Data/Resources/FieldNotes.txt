@@ -1,43 +1,49 @@
-Unique ID	Note	Source(s)	Tag	Conflicted	[MM/Doc/Object]	[Potential Cause]	
+Unique ID	Note	Source(s)	Tag	Repeated	[MM/Doc/Object]		ASHP Notes
+ohio_1	Abolitionist lawyers challenged the Fugitive Slave Law through the courts using a writ of habeas corpus.	Habeas Corpus, Clark	OH		Doc, MM		PB: I think a middle ground may work: Abolitionist lawyers challenged the FSL through the courts using a writ of habeas corpus.
+ohio_2	Many law enforcement officers and judges who objected to the Fugitive Slave Law were compelled to enforce it.	Judge	OH		MM		PB: Not sure about the word "felt" here. They were compelled by law to enforce it. Some chose to break the law others decided not to go against the law.
+ohio_3	Alleged fugitives were not allowed to testify in court to prove their freedom.	Judge	OH		MM		
+ohio_4	Slavecatchers used newspaper advertisements to track down fugitives from slavery fleeing across state lines.	Runaway Ad	OH		Doc		
+ohio_5	Slavecatchers could earn a substantial cash reward for capturning and returning fugitives from slavery.	Runaway Ad	OH		Doc		
+ohio_6	Under the Fugitive Slave Law, it was illegal to assist anyone fleeing slavery.	Shopkeeper	OH	mass_11	MM		
+ohio_7	Some abolitionists assisted fugitives fleeing slavery by secretly providing shelter and transportation.	Shopkeeper	OH		MM		
+ohio_8	Abolitionists used religious texts to challenge the morality of the fugitive slave law.	Bible	OH		Obj		PB: This rewrite seems clearer to me.
+ohio_9	The Fugitive Slave Law deprived black prisoners of due process by denying their right to defend themselves in court.	Petition	OH				
+ohio_10	All black Northerners were vulnerable to arrest and kidnapping.	Clark	OH	penn_10, mass_3	MM		
+ohio_11	Some abolitionists organized rescue attempts to free fugitives from slavery held in jail.	Clark	OH	mass_10	MM		PB: Should we to say "fugitives from slavery"
+ohio_12	Professional slavecatchers travelled across the country pursuing and kidnapping black Northerners and sending them into slavery.	Slavecatcher	OH	mass_1, penn_7	MM		
+penn_1	Federal Commissioners and Marshalls were responsible for enforcing the Fugitive Slave Law.	Lawman	PA		MM		
+penn_2	Under the Fugitive Slave Law, anyone who refused to assist in the capture of an alleged fugitive could be arresed, fined, and/or sued.	Lawman	PA	mass_12	MM		 
+penn_3	The Fugitive Slave Law of 1850 was used to arrest and enslave anyone who had escaped slavery, including those who escaped before 1850.	Petition	PA		Doc		PB: Agree
+penn_4	Increased presence of armed Marshals and slavecatchers disrupted the lives of white Northerners unaccustomed to seeing the brutality of slavery.	Man with Horse	PA		MM		PB: "irritated Northerners" could be changed to: "outraged some Northerners"
+penn_5	Some Northerners quietly overlooked the presence of fugitives in their communities.	Man with Horse	PA		MM		
+penn_6	Slaveholders used the Fugitive Slave Law to legally compel the government to assist in the return of people they claimed as slaves.	Gorsuch, Maryland Petition	PA		MM, Doc		
+penn_7	Professional slavecatchers travelled across the country pursuing and kidnapping black Northerners and sending them into slavery.	Eliza 	PA	ohio_12, mass_1	MM		PB: The FSL increased the number of free Black Northerners being kidnapped by slavecatchers and illegally shipped South into slavery.
+penn_8	Black communities developed mutual self-defense networks to protect one another from kidnapping.	Eliza, Horn	PA		MM, Obj		
+penn_9	Local mutual defense networks collaborated with larger urban abolition organizations like Vigilance Committees. 	Eliza 	PA		MM		PB: the language in this note seems a bit obscure. Maybe change to: Local self-defense networks often collaborated with urban abolitionists such as Vigilance Committes.
+penn_10	All black Northerners were vulnerable to arrest and kidnapping.	Man with Gun	PA	mass_3, ohio_10	MM		PB: Do we need to emphasize that "All Black Northerners  . . . "
+penn_11	Unable to rely on state authorities for protection, fugitives turned to armed resistance to confront slavecatchers.	Man with Gun, corn knife	PA	mass_14	MM, Obj		
+penn_12	Many Black Northerners, especially fugitives, moved to Canada to avoid kidnapping and enslavement.	Man with Gun	PA	mass_16	MM		PB: May want to qualify this one: "Many Black Northerners . . ."
+penn_13	The Fugitive Slave Law overrode state laws abolishing slavery and prohibiting the return of fugitives from slavery.	Maryland Petition	PA	mass_17	Doc		
+mass_1	Professional slavecatchers travelled across the country pursuing and kidnapping fugitives and returning them to slavery.	Broadside	MA	ohio_12, penn_7	Doc		
+mass_2 	Abolitionists organized against the law openly and publicly. 	Broadside	MA		Doc		PB: I think this may be owrth keeping
+mass_3	All black Northerners were vulnerable to arrest and kidnapping.	Broadside, Weston, Black Abolitionist	MA	penn_10	Doc, MM, MM		
+mass_4	Abolitionists used emotional appeal and dramamtic language in their writings to create sympathy for fugitives and enslaved people.	Broadside, Uncle Tom's Cabin	MA		Doc, Doc		PB: dramatic scenarios could be changed to: theatrical dramas or: Abolitionists wrote emotional appeals and performed dramatic plays to create sympathy . . ."
+mass_5	Abolitionists appealed to the idea of natural rights to criticize the institution of slavery.	Wedgewood	MA		Obj		
+mass_6	Abolitionists were frustrated by the growth of slavery despite their organization against it.	Letter	MA		Doc		PB: Agree can cut
+mass_7	Abolitionists were motivated by deeply held moral opposition to the institution of slavery.	Weston	MA		MM		PB: Agree can cut
+mass_8	Abolitionists were divided between non-violent opposition and forceful resistance to the law.	Weston	MA		MM		
+mass_9	In the 1840s and 1850s, the extension of slavery to Western territories was a controversial national issue.	Weston	MA		MM		
+mass_10	Some abolitionists organized rescue attempts to free fugitives held in jail.	Weston	MA	ohio_11	MM		
+mass_11	Under the Fugitive Slave Law, it was illegal to assist anyone fleeing slavery.	Supporter of Law	MA	ohio_6	MM		
+mass_12	Some Northerners worried that resistance to the Fugitive Slave Law would create greater political division between North and South.	Supporter of Law	MA		MM		PB: This is not very clear to me -- alienate Southerners from what? Perhaps change to: Some Northerners worried that resistance would lead to greater political divisions between the North and South.
+mass_13	Unable to rely on state authorities for protection, fugitives turned to armed resistance to confront slavecatchers.	Club, Black Abolitionist	MA	penn_11	Obj, MM		
+mass_14	Some Black Northerners, especially fugitives, moved to Canada to avoid kidnapping and enslavement.	Boston Abolitionist	MA	penn_12	MM		PB: Add qualifies "Some or Many Black Northerners . . ."
+mass_15							
+mass_16	Abolitionist organizations like Vigilance Committees monitored slavecatcher activity and resisted the enforcement of the law.	Boston Abolitionist	MA		MM		PB: Rather than "Formal" dentify them as Abolitionist organizations.
+mass_17	The Fugitive Slave Law overrode state laws abolishing slavery and prohibiting the return of fugitives from slavery.	Douglas' Oration	MA	penn_13	Doc		
+mass_18	Under the Fugitive Slave Law, anyone who refused to assist in the capture of an alleged fugitive could be arresed, fined, and/or sued.	Uncle Tom's Cabin	MA	penn_2	Doc		
 			 				
-aft_01	Boston officials published their own account of the massacre.	CARPA	The Aftermath		Doc	N	The Aftermath
-aft_02	Captain Preston faced the death penalty if convicted of murder.	Preston	The Aftermath		MM	N	The Aftermath
-aft_03	Captain Preston sent a secret letter to London proclaiming his innocence and criticizing Boston.	Preston	The Aftermath		MM	N	The Aftermath
-aft_04	Captain Preston was arrested and held in jail after the massacre.	Preston	The Aftermath		Doc	N	The Aftermath
-aft_05	Preston wrote to the Boston Gazette to thank the people of Boston for their support a week after the massacre.	Preston	The Aftermath		Doc	N	The Aftermath
-aft_06	"The Bloody Massacre" roused people's anger against the British.	Revere	The Aftermath		MM		The Aftermath
-aft_07	Revere made a profit from his printmaking.	Tavernkeeper, Revere Ad	The Aftermath		MM		The Aftermath
-aft_08	Paul Revere created the "Troops Landing" print weeks after the Boston Massacre.	CARPA	The Aftermath		Doc		The Aftermath
-mil_01	The people of Boston provoked and abused British soldiers.	Preston, Tavenkeeper	Military Occupation		Doc, +?	Y	Military Occupation
-mil_02	Newly arrived British troops were disrespectful towards the people of Boston.	Revere	Military Occupation		Doc	Y	Military Occupation
-mil_03	Thomas Preston was a captain in the 29th Regiment.	CARPA, CARPA	Military Occupation		Doc, Doc		Military Occupation
-mil_04	The British sent soldiers to Boston to enforce the Townshend Acts.	CARPA	Military Occupation		Doc		Military Occupation
-mil_05	The people of Boston were unhappy about the arrival of British troops.	Preston	Military Occupation		Doc	Y	Military Occupation
-mil_06	The Earl of Hillsborough sent soldiers to Boston to enforce the Townshend Acts.	Revere	Military Occupation		Doc		Military Occupation
-mil_07	"Landing of the Troops" connected the troop's landing to the unrest in Boston.	Revere	Military Occupation		MM		Military Occupation
-mil_08	The arrival of British troops in 1768 felt like an act of war.	Revere, Tavernkeeper	Military Occupation		Doc, MM		Military Occupation
-mil_09	Over 1,000 soldiers were sent to a town of approximately 15,000.	CARPA	Military Occupation		Doc		Military Occupation
-mil_10	The Earl of Hillsborough was responsible for administering Britain's colonies in America.	CARPA	Military Occupation		Doc		Military Occupation
-nof_01	The crowd was armed.	Preston	The Night Of	nof_04	MM	Y	The Night Of
-nof_02	Captain Preston wrote that he was innocent of any wrongdoing in the massacre.	Preston	The Night Of	nof_06	Doc	N	The Night Of
-nof_03	Captain Preston did not order his soldiers to fire.	Preston, Tavern customer	The Night Of	nof_06	MM, MM	N	The Night Of
-nof_04	The crowd was peaceful and unarmed.	Revere	The Night Of	nof_01, nof_07	Doc		The Night Of
-nof_05	British soldiers smiled as they fired into the crowd.	Revere	The Night Of		Doc		The Night Of
-nof_06	Captain Preston ordered his soldiers to fire.	Revere, Tavern customer	The Night Of	nof_03, nof_02	Doc, MM		The Night Of
-nof_07	The crowd threw ice at the soldiers.	Tavern customer	The Night Of	nof_04	MM		The Night Of
-nof_08	Five men died in the massacre.	Tavern customer	The Night Of		MM		The Night Of
-rop_01	British soldiers were paid so little that they looked for extra work.	Preston 	Ropewalk Fight		Doc	Y	Ropewalk Fight
-rop_02	British soldiers competed with townspeople for work.	Tavern customer	Ropewalk Fight		MM		Ropewalk Fight
-rop_03	The British soldiers provoked ropewalk workers.	Tavern customer	Ropewalk Fight	rop_04	MM		Ropewalk Fight
-rop_04	Ropewalk workers insulted and provoked British soldiers	Preston	Ropewalk Fight	rop_03	Doc		Ropewalk Fight
-rop_05	Soldiers of the 29th regiment were looking for revenge after the fight at the ropewalk.	Tavern customer	Ropewalk Fight		MM		Ropewalk Fight
-rop_06	Soldiers from the 29th regiment fought with ropewalk workers a few days before the massacre.	Tavern customer, Preston	Ropewalk Fight		MM, Doc		Ropewalk Fight
-tax_01	The Townshend Acts taxed consumer goods like paper and glass.	CARPA, CARPA	Taxation		Obj, Doc	Y	Taxation
-tax_02	Ninety-two Massachusetts represenatives denounced the Townshend Acts in 1768.	CARPA	Taxation		Obj	Y	Taxation
-tax_03	Merchants smuggled goods past British customs agents to evade taxation.	CARPA, Tavernkeeper	Taxation		Obj, MM	Y	Taxation
-tax_04	Paul Revere was a member of the Sons of Liberty.	Revere	Taxation		MM		Taxation
-tax_05	The Sons of Liberty were a secret organization  formed in 1765 to resist British taxation. 	Revere	Taxation		MM		Taxation
-tax_06	Colonists boycotted taxed goods to protest the Townshend Acts.	Revere	Taxation		MM	Y	Taxation
-tax_07	Revere objected to paying taxes when he and other colonists were not represented in Parliament.	Revere	Taxation		MM		Taxation
-tax_08	Parliament repealed the Stamp Act in 1766 after colonial protests.	Revere	Taxation		MM		Taxation
-tax_09	British soldiers assisted customs agents catch smugglers.	Tavernkeeper	Taxation		MM		Taxation
+							
+definition_1	A fugitive is a person trying to escape a danger or capture; in this case, a person escaping slavery		DEF				
+definition_2	Due process is the right of every citizen to a fair trial and equal legal proceedings before being deprived of life, liberty, or property		DEF				
+definition_3	Habeas corpus is the right of every citizen to challenge their arrest or imprisonment.		DEF				
