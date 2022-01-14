@@ -6673,6 +6673,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1719716460017580, guid: 7b6c4ceb7e25f194f99d92800a27ef76, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1828128001810466, guid: 7b6c4ceb7e25f194f99d92800a27ef76, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -9837,7 +9841,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: First time lab (skip)
+        toState: Load Lab 1st
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -11289,7 +11293,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: Load Cincinnati
+        toState: Load Boston
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -11676,12 +11680,21 @@ MonoBehaviour:
         serializedVersion: 2
         x: 368
         y: 208
-        width: 103
-        height: 16
+        width: 100
+        height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
-      transitions: []
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: State 1
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.CallMethod
@@ -11825,7 +11838,7 @@ MonoBehaviour:
               tooltip: 
               showInInspector: 0
               networkSync: 0
-              value: {fileID: 0}
+              value: {fileID: 741774505}
           fsmName:
             useVariable: 0
             name: 
@@ -11892,6 +11905,58 @@ MonoBehaviour:
         - realTime
         paramDataPos: 00000000000000000000000000000000010000000000000001000000
         paramByteDataSize: 00000000000000000000000001000000000000000000000001000000
+    - name: State 1
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 454
+        y: 303
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled: 
+        actionIsOpen: 
+        actionStartIndex: 
+        actionHashCodes: 
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 
+        paramName: []
+        paramDataPos: 
+        paramByteDataSize: 
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -13877,7 +13942,7 @@ MonoBehaviour:
       isGlobal: 0
     - name: CLICK
       isSystemEvent: 0
-      isGlobal: 1
+      isGlobal: 0
     - name: NO
       isSystemEvent: 0
       isGlobal: 0
@@ -14226,7 +14291,7 @@ MonoBehaviour:
       isGlobal: 0
     - name: CLICK
       isSystemEvent: 0
-      isGlobal: 1
+      isGlobal: 0
     globalTransitions: []
     variables:
       floatVariables: []
@@ -22483,7 +22548,7 @@ MonoBehaviour:
         serializedVersion: 2
         x: 64
         y: 160
-        width: 169
+        width: 152
         height: 80
       isBreakpoint: 0
       isSequence: 0
@@ -22571,7 +22636,7 @@ MonoBehaviour:
         serializedVersion: 2
         x: 464
         y: 160
-        width: 138
+        width: 124
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -22745,7 +22810,7 @@ MonoBehaviour:
         serializedVersion: 2
         x: 464
         y: 256
-        width: 146
+        width: 131
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -23012,7 +23077,7 @@ MonoBehaviour:
         serializedVersion: 2
         x: 464
         y: 208
-        width: 137
+        width: 124
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -23123,7 +23188,7 @@ MonoBehaviour:
         serializedVersion: 2
         x: 464
         y: 352
-        width: 170
+        width: 153
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -23184,7 +23249,7 @@ MonoBehaviour:
         serializedVersion: 2
         x: 464
         y: 304
-        width: 145
+        width: 131
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -23295,7 +23360,7 @@ MonoBehaviour:
         serializedVersion: 2
         x: 464
         y: 400
-        width: 135
+        width: 123
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -23506,14 +23571,14 @@ MonoBehaviour:
         serializedVersion: 2
         x: 720
         y: 160
-        width: 150
+        width: 136
         height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: CLICK
+          name: GM CLICK
           isSystemEvent: 0
           isGlobal: 1
         toState: State 3
@@ -23574,7 +23639,7 @@ MonoBehaviour:
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: CLICK
+          name: GM CLICK
           isSystemEvent: 0
           isGlobal: 1
         toState: END
@@ -23625,7 +23690,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 0}
+            value: {fileID: 335793261}
         animationCurveParams:
         - curve:
             serializedVersion: 2
@@ -23900,7 +23965,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 0}
+            value: {fileID: 933660839}
         animationCurveParams:
         - curve:
             serializedVersion: 2
@@ -24101,13 +24166,13 @@ MonoBehaviour:
     - name: CALL RIGHT PANEL
       isSystemEvent: 0
       isGlobal: 1
-    - name: CLICK
-      isSystemEvent: 0
-      isGlobal: 1
     - name: CLOSE RIGHT PANEL
       isSystemEvent: 0
       isGlobal: 1
     - name: END GAME
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: GM CLICK
       isSystemEvent: 0
       isGlobal: 1
     - name: LEFT PANEL PULSE
@@ -33182,7 +33247,7 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 0101010101010101010101
+        actionEnabled: 0101000101010101010101
         actionIsOpen: 0101010101010101010101
         actionStartIndex: 000000000300000006000000090000000c0000000f0000001200000015000000180000001b0000001e000000
         actionHashCodes: 4d51cf044d51cf044d51cf044d51cf044d51cf044d51cf044d51cf044d51cf044d51cf044d51cf044d51cf04
@@ -33606,7 +33671,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1038128548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53259,7 +53324,7 @@ MonoBehaviour:
       isGlobal: 0
     - name: CLICK
       isSystemEvent: 0
-      isGlobal: 1
+      isGlobal: 0
     - name: NO
       isSystemEvent: 0
       isGlobal: 0
@@ -54196,7 +54261,7 @@ MonoBehaviour:
       isGlobal: 0
     - name: CLICK
       isSystemEvent: 0
-      isGlobal: 1
+      isGlobal: 0
     - name: NO
       isSystemEvent: 0
       isGlobal: 0
@@ -62311,7 +62376,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 10
+          value: 1
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -62431,7 +62496,7 @@ MonoBehaviour:
       isGlobal: 0
     - name: CLICK
       isSystemEvent: 0
-      isGlobal: 1
+      isGlobal: 0
     - name: NO
       isSystemEvent: 0
       isGlobal: 0
@@ -69301,7 +69366,7 @@ MonoBehaviour:
       isGlobal: 0
     - name: CLICK
       isSystemEvent: 0
-      isGlobal: 1
+      isGlobal: 0
     - name: GET
       isSystemEvent: 0
       isGlobal: 0
@@ -73482,7 +73547,7 @@ MonoBehaviour:
       isGlobal: 0
     - name: CLICK
       isSystemEvent: 0
-      isGlobal: 1
+      isGlobal: 0
     - name: PULSE EFFECT
       isSystemEvent: 0
       isGlobal: 1
@@ -76303,7 +76368,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'E-mail generating...
 
-    You may take off your headset.'
+    You have completed this TimeSnap!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

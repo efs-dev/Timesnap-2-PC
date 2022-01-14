@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 
 using System;
+using System.Linq;
 
 using sharpPDF;
 
@@ -29,13 +30,22 @@ public class EmailTester : MonoBehaviour {
         myFirstPage.addText("     - " + (string.IsNullOrEmpty(categoryTitle) ? category : categoryTitle), 40, pageHeight - y, sharpPDF.Enumerators.predefinedFont.csTimesBold, subtitleSize, "category");
         y += 14;
 
-        FieldNoteManager.Entries.FindAll(x => x.Tags[0] == category).ForEach(note =>
+        FieldNoteManager.Entries.FindAll(x => x.Tags.Count > 0 && x.Tags[0] == category).ForEach(note =>
         {
-            if (note.Collected || Debug)
+            UnityEngine.Debug.Log("checking note " + note.Id + " in category " + category + ", collected = " + note.Collected);
+            if (note.Collected || Debug || category == "DEF")
             {
-                var isConflicted = FieldNoteManager.ConflictingFieldNotes(note.Id).Count > 0;
-                var source = "[Source: " + (string.IsNullOrEmpty(note.OverrideSource) ? note.Sources[0] : note.OverrideSource) + "] ";
-                myFirstPage.addText("          - " + source + note.Note + (isConflicted ? "*" : ""), 40, pageHeight - y, sharpPDF.Enumerators.predefinedFont.csTimes, textSize, "entry");
+                var hasMatching = FieldNoteManager.HasMatching(note.Id, Debug);// FieldNoteManager.ConflictingFieldNotes(note.Id).Count > 0;
+                var source = "[Source: " + note.OverrideSource + "] ";
+
+                if (string.IsNullOrEmpty(note.OverrideSource))
+                {
+                    if (note.Sources.Count > 0)
+                        source = "[Source: " + note.Sources.Aggregate((a, b) => a + ", " + b) + "] ";
+                    else
+                        source = "";
+                }
+                myFirstPage.addText("          - " + source + note.Note + (hasMatching ? "*" : ""), 40, pageHeight - y, sharpPDF.Enumerators.predefinedFont.csTimes, textSize, "entry");
                 y += 13;
             }
         });
@@ -66,7 +76,7 @@ public class EmailTester : MonoBehaviour {
 
         pdfDocument myDoc = new pdfDocument("Timesnap Report", _keyboard.EnteredText, false);
         pdfPage myFirstPage = myDoc.addPage();
-        myFirstPage.addText("C.A.R.P.A. Field Notes: The Boston Massacre", 40, pageHeight - y, sharpPDF.Enumerators.predefinedFont.csTimesBold, titleSize, "title");
+        myFirstPage.addText("C.A.R.P.A. Field Notes: The Fugitive Slave Law", 40, pageHeight - y, sharpPDF.Enumerators.predefinedFont.csTimesBold, titleSize, "title");
         y += 14;
         myFirstPage.addText("Agent: " + _keyboard.EnteredText, 40, pageHeight - y, sharpPDF.Enumerators.predefinedFont.csTimes, textSize, "subtitle");
         y += 14;
@@ -76,30 +86,25 @@ public class EmailTester : MonoBehaviour {
         y += 14;
         myFirstPage.addText("Field notes you have collected during your mission have been compiled below, along with the source of each note.", 40, pageHeight - y, sharpPDF.Enumerators.predefinedFont.csTimesOblique, textSize, "subtitle");
         y += 30;
-        myFirstPage.addText("Potential Causes of the Boston Massacre", 40, pageHeight - y, sharpPDF.Enumerators.predefinedFont.csTimesBold, headerSize, "header");
+        myFirstPage.addText("Effects of the Fugitive Slave Law", 40, pageHeight - y, sharpPDF.Enumerators.predefinedFont.csTimesBold, headerSize, "header");
         y += 15;
 
         //y += 10;
-        y = WriteCategoryToPdf(myFirstPage, "Taxation", y);
+        y = WriteCategoryToPdf(myFirstPage, "PA", y, "Christiana, Pennsylvania");
         y += 10;
-        y = WriteCategoryToPdf(myFirstPage, "Military Occupation", y);
+        y = WriteCategoryToPdf(myFirstPage, "MA", y, "Boston, Massachusetts");
         y += 10;
-        y = WriteCategoryToPdf(myFirstPage, "Ropewalk Fight", y);
+        y = WriteCategoryToPdf(myFirstPage, "OH", y, "Cincinnati, Ohio");
         y += 10;
-        y = WriteCategoryToPdf(myFirstPage, "The Night Of", y, "The Night of the Massacre");
+        y = WriteCategoryToPdf(myFirstPage, "DEF", y, "Definitions");
         y += 15;
 
-        myFirstPage.addText("Effects of the Boston Massacre", 40, pageHeight - y, sharpPDF.Enumerators.predefinedFont.csTimesBold, headerSize, "header");
-        y += 15;
-        //y += 10;
-        y = WriteCategoryToPdf(myFirstPage, "The Aftermath", y);
-        y += 15;
-        myFirstPage.addText("* This evidence conflicts with other evidence you found. Consider the sources of each.", 40, pageHeight - y, sharpPDF.Enumerators.predefinedFont.csTimes, textSize - 1, "footer");
+        myFirstPage.addText("* This evidence matches evidence you have found in another state.", 40, pageHeight - y, sharpPDF.Enumerators.predefinedFont.csTimes, textSize - 1, "footer");
 
 
         // myFirstPage.addImage(Texture.texture.EncodeToJPG(100), 5, 5, 250, 250);
 
-        var emailData = new EmailData("mus.timesnap@gmail.com", _keyboard.EnteredText, "C.A.R.P.A. Mission Report: The Boston Massacre", "Good work, agent!\nAttached is your mission recap.");
+        var emailData = new EmailData("mus.timesnap@gmail.com", _keyboard.EnteredText, "C.A.R.P.A. Mission Report: The Fugitive Slave Law", "Good work, agent!\nAttached is your mission recap.");
         emailData.BCCSender = true;
         emailData.AddAttachment(myDoc, "CARPAMissionReport.pdf");
         /*
@@ -124,7 +129,7 @@ public class EmailTester : MonoBehaviour {
         WWWForm form = new WWWForm();
         form.AddField("to", to);
         form.AddField("pdf", pdfJson);
-
+        form.AddField("subject", "C.A.R.P.A. Mission Report: The Fugitive Slave Law");
 
 
 
