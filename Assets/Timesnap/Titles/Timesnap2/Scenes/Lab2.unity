@@ -11501,13 +11501,13 @@ MonoBehaviour:
         paramDataPos: 000000000000000000000000000000000000000001000000000000000200000000000000000000000000000001000000030000000700000008000000090000000a000000
         paramByteDataSize: 0000000001000000000000000000000000000000010000000000000001000000000000000000000000000000000000000400000001000000010000000100000001000000
     - name: Writ Petition
-      description: Why did you choose the Wedgewood medallion?
+      description: Why did you choose the Petition for a Writ of Habeas Corpus?
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 1970
         y: 1180.5
-        width: 231
+        width: 247
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -11555,7 +11555,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: Why did you choose the Wedgewood medallion?
+          value: "Why did you choose the Petition for a Writ of \nHabeas Corpus?"
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -11663,23 +11663,21 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.SendEventByName
         - Efs.PlayMaker.Actions.SetTMPText
         - Efs.PlayMaker.Actions.SetTMPText
         - Efs.PlayMaker.Actions.SetTMPText
         - Efs.PlayMaker.Actions.SetTMPText
         - Efs.PlayMaker.Actions.ActivateMultiGameObjects
         customNames:
-        - Turn Off CC
         - 
         - 
         - 
         - 
         - 
-        actionEnabled: 010101010101
-        actionIsOpen: 000001010101
-        actionStartIndex: 00000000040000000f0000001a0000002500000030000000
-        actionHashCodes: ba7ea101098fb400098fb400098fb400098fb400d788ab05
+        actionEnabled: 0101010101
+        actionIsOpen: 0101010101
+        actionStartIndex: 000000000b00000016000000210000002c000000
+        actionHashCodes: 098fb400098fb400098fb400098fb400d788ab05
         unityObjectParams:
         - {fileID: 0}
         - {fileID: 0}
@@ -11720,48 +11718,10 @@ MonoBehaviour:
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
-        fsmEventTargetParams:
-        - target: 2
-          excludeSelf:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          gameObject:
-            ownerOption: 1
-            gameObject:
-              useVariable: 1
-              name: TS_CC_audio
-              tooltip: 
-              showInInspector: 0
-              networkSync: 0
-              value: {fileID: 0}
-          fsmName:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: CC & Audio FSM
-          sendToChildren:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          fsmComponent: {fileID: 0}
+        fsmEventTargetParams: []
         fsmPropertyParams: []
         layoutOptionParams: []
         fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: KILL CC
         - useVariable: 0
           name: 
           tooltip: 
@@ -11793,12 +11753,6 @@ MonoBehaviour:
         fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
         - useVariable: 0
           name: 
           tooltip: 
@@ -11943,19 +11897,15 @@ MonoBehaviour:
         - 
         - 
         - 
-        byteData: 0000000000000000000000000000
+        byteData: 00000000000000000000000000
         arrayParamSizes: 0100000000000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmGameObject
         - HutongGames.PlayMaker.FsmGameObject
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1f000000120000000f0000000100000003000000010000001300000005000000120000000100000010000000010000000f000000110000001900000003000000010000001300000005000000120000000100000010000000010000000f000000110000001900000003000000010000001300000005000000120000000100000010000000010000000f000000110000001900000003000000010000001300000005000000120000000100000010000000010000000f00000011000000190000000c000000130000001100000011000000110000000c00000011000000110000001100000001000000
+        paramDataType: 03000000010000001300000005000000120000000100000010000000010000000f000000110000001900000003000000010000001300000005000000120000000100000010000000010000000f000000110000001900000003000000010000001300000005000000120000000100000010000000010000000f000000110000001900000003000000010000001300000005000000120000000100000010000000010000000f00000011000000190000000c000000130000001100000011000000110000000c00000011000000110000001100000001000000
         paramName:
-        - eventTarget
-        - sendEvent
-        - delay
-        - everyFrame
         - Note
         - UseOwner
         - GameObject
@@ -12010,8 +11960,8 @@ MonoBehaviour:
         - invertDeactivateIf
         - deactivateIf
         - everyFrame
-        paramDataPos: 00000000000000000000000000000000000000000100000000000000000000000100000002000000000000000300000001000000000000000000000001000000040000000100000001000000020000000500000001000000060000000200000001000000010000000200000007000000020000000200000003000000080000000200000009000000030000000200000002000000030000000a0000000300000003000000040000000b000000030000000c0000000400000003000000030000000000000004000000040000000500000006000000010000000700000008000000090000000d000000
-        paramByteDataSize: 00000000000000000000000001000000000000000100000000000000000000000000000001000000000000000100000000000000000000000000000000000000010000000000000000000000000000000100000000000000010000000000000000000000000000000000000001000000000000000000000000000000010000000000000001000000000000000000000000000000000000000100000000000000000000000000000001000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
+        paramDataPos: 00000000000000000000000000000000000000000100000000000000020000000000000000000000000000000100000003000000010000000100000001000000040000000100000005000000010000000100000001000000020000000600000002000000020000000200000007000000020000000800000002000000020000000200000003000000090000000300000003000000030000000a000000030000000b0000000300000003000000030000000000000004000000040000000500000006000000010000000700000008000000090000000c000000
+        paramByteDataSize: 000000000100000000000000000000000000000001000000000000000100000000000000000000000000000000000000010000000000000000000000000000000100000000000000010000000000000000000000000000000000000001000000000000000000000000000000010000000000000001000000000000000000000000000000000000000100000000000000000000000000000001000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
     - name: set up question 5
       description: 
       colorIndex: 1
@@ -20546,6 +20496,44 @@ RectTransform:
   m_AnchoredPosition: {x: -130, y: -156}
   m_SizeDelta: {x: 143.6, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!21 &239874741
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Internal VRPanorama
+  m_Shader: {fileID: 4800000, guid: 6cc95f829d9ea4c4aa8061a05c8e81e0, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _LeftTexture:
+        m_Texture: {fileID: 2800000, guid: b7b3db9fba701b84db483c867c14df19, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RightTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 1
+    - _LeftToRightEye: 0
+    - _TargetEye: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _LeftEyeOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _LeftEyeTiling: {r: 2, g: 1, b: 0, a: 0}
+    - _RightEyeOffset: {r: -0, g: -0, b: 0, a: 0}
+    - _RightEyeTiling: {r: 2, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &258622266
 GameObject:
   m_ObjectHideFlags: 0
@@ -35055,7 +35043,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1186814409}
+  - {fileID: 239874741}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -43070,44 +43058,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.9
   m_Center: {x: 0, y: 0, z: 0}
---- !u!21 &1186814409
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Internal VRPanorama
-  m_Shader: {fileID: 4800000, guid: 6cc95f829d9ea4c4aa8061a05c8e81e0, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _LeftTexture:
-        m_Texture: {fileID: 2800000, guid: b7b3db9fba701b84db483c867c14df19, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _RightTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _Alpha: 1
-    - _LeftToRightEye: 0
-    - _TargetEye: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _LeftEyeOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _LeftEyeTiling: {r: 2, g: 1, b: 0, a: 0}
-    - _RightEyeOffset: {r: -0, g: -0, b: 0, a: 0}
-    - _RightEyeTiling: {r: 2, g: 1, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &1192430369
 GameObject:
   m_ObjectHideFlags: 0
@@ -75317,7 +75267,7 @@ MonoBehaviour:
           name: NO
           isSystemEvent: 0
           isGlobal: 0
-        toState: skip all
+        toState: original
         linkStyle: 3
         linkConstraint: 2
         linkTarget: 0
@@ -77989,11 +77939,11 @@ MonoBehaviour:
         paramByteDataSize: 0000000001000000000000000000000000000000010000000000000001000000000000000000000000000000000000000400000001000000010000000100000001000000
     - name: skip all
       description: 
-      colorIndex: 0
+      colorIndex: 7
       position:
         serializedVersion: 2
-        x: 435
-        y: 1041.6641
+        x: 352
+        y: 1024
         width: 100
         height: 32
       isBreakpoint: 0
@@ -78065,6 +78015,67 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 000000000100000000000000
         paramByteDataSize: 000000000000000001000000
+    - name: original
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 352
+        y: 944
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Prepare Stage 1
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled: 
+        actionIsOpen: 
+        actionStartIndex: 
+        actionHashCodes: 
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 
+        paramName: []
+        paramDataPos: 
+        paramByteDataSize: 
     events:
     - name: FINISHED
       isSystemEvent: 1
