@@ -25,7 +25,7 @@ penn_11	Unable to rely on state authorities for protection, fugitives turned to 
 penn_12	Many Black Northerners, especially fugitives, moved to Canada to avoid kidnapping and enslavement.	Man with Gun	PA	mass_16	MM		PB: May want to qualify this one: "Many Black Northerners . . ."
 penn_13	The Fugitive Slave Law overrode state laws abolishing slavery and prohibiting the return of fugitives from slavery.	Maryland Petition	PA	mass_17	Doc		
 mass_1	Professional slavecatchers travelled across the country pursuing and kidnapping fugitives and returning them to slavery.	Broadside	MA	ohio_12, penn_7	Doc		
-mass_2 	Abolitionists organized against the law openly and publicly. 	Broadside	MA		Doc		PB: I think this may be owrth keeping
+mass_2 	Abolitionists organized against the law openly and publicly. 	Broadside	MA		Doc		PB: I think this may be worth keeping
 mass_3	All black Northerners were vulnerable to arrest and kidnapping.	Broadside, Weston, Black Abolitionist	MA	penn_10	Doc, MM, MM		
 mass_4	Abolitionists used emotional appeal and dramamtic language in their writings to create sympathy for fugitives and enslaved people.	Broadside, Uncle Tom's Cabin	MA		Doc, Doc		PB: dramatic scenarios could be changed to: theatrical dramas or: Abolitionists wrote emotional appeals and performed dramatic plays to create sympathy . . ."
 mass_5	Abolitionists appealed to the idea of natural rights to criticize the institution of slavery.	Wedgewood	MA		Obj		
@@ -38,7 +38,7 @@ mass_11	Under the Fugitive Slave Law, it was illegal to assist anyone fleeing sl
 mass_12	Some Northerners worried that resistance to the Fugitive Slave Law would create greater political division between North and South.	Supporter of Law	MA		MM		PB: This is not very clear to me -- alienate Southerners from what? Perhaps change to: Some Northerners worried that resistance would lead to greater political divisions between the North and South.
 mass_13	Unable to rely on state authorities for protection, fugitives turned to armed resistance to confront slavecatchers.	Club, Black Abolitionist	MA	penn_11	Obj, MM		
 mass_14	Some Black Northerners, especially fugitives, moved to Canada to avoid kidnapping and enslavement.	Boston Abolitionist	MA	penn_12	MM		PB: Add qualifies "Some or Many Black Northerners . . ."
-mass_15							
+mass_15	Abolitionists organized against the law openly and publicly. 	Broadside	MA		Doc		PB: I think this may be worth keeping
 mass_16	Abolitionist organizations like Vigilance Committees monitored slavecatcher activity and resisted the enforcement of the law.	Boston Abolitionist	MA		MM		PB: Rather than "Formal" dentify them as Abolitionist organizations.
 mass_17	The Fugitive Slave Law overrode state laws abolishing slavery and prohibiting the return of fugitives from slavery.	Douglas' Oration	MA	penn_13	Doc		
 mass_18	Under the Fugitive Slave Law, anyone who refused to assist in the capture of an alleged fugitive could be arresed, fined, and/or sued.	Uncle Tom's Cabin	MA	penn_2	Doc		

@@ -37,12 +37,12 @@ public class TargetManager : MonoBehaviour
         {
             var collider = x.GetComponent<Collider>();
 
-            Debug.Log("testing " + x + " for collider " + collider);
+            //Debug.Log("testing " + x + " for collider " + collider);
 
             if (collider == null)
                 return;
 
-            Debug.Log("   - testing for intersection");
+            //Debug.Log("   - testing for intersection");
             float distance = 0;
             if (collider.bounds.IntersectRay(ray, out distance))
             {
