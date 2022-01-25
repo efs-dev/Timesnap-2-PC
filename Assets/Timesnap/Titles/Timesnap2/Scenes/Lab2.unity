@@ -2492,7 +2492,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 60.28125
-        y: 698.4453
+        y: 650.4453
         width: 100
         height: 32
       isBreakpoint: 0
@@ -2609,8 +2609,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1442
-        y: 332.5
-        width: 212.5
+        y: 284.5
+        width: 191
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -2747,7 +2747,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1778
-        y: 380.5
+        y: 332.5
         width: 100
         height: 64
       isBreakpoint: 0
@@ -2867,8 +2867,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1970
-        y: 412.5
-        width: 242.5
+        y: 364.5
+        width: 217
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -2988,8 +2988,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1970
-        y: 492.5
-        width: 190.5
+        y: 444.5
+        width: 171.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -3109,8 +3109,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1970
-        y: 332.5
-        width: 173
+        y: 284.5
+        width: 154
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -3230,8 +3230,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2418
-        y: 220.5
-        width: 143
+        y: 172.5
+        width: 130
         height: 64
       isBreakpoint: 0
       isSequence: 0
@@ -3620,8 +3620,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2418
-        y: 428.5
-        width: 143
+        y: 380.5
+        width: 131
         height: 64
       isBreakpoint: 0
       isSequence: 0
@@ -4010,8 +4010,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2418
-        y: 636.5
-        width: 143
+        y: 588.5
+        width: 132
         height: 64
       isBreakpoint: 0
       isSequence: 0
@@ -4400,8 +4400,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2706
-        y: 108.5
-        width: 292.5
+        y: 60.5
+        width: 257
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -4521,7 +4521,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 3970
-        y: 1356.5
+        y: 1308.5
         width: 100
         height: 48
       isBreakpoint: 0
@@ -4670,8 +4670,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2706
-        y: 380.5
-        width: 294
+        y: 332.5
+        width: 261.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -4791,8 +4791,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2706
-        y: 652.5
-        width: 282
+        y: 604.5
+        width: 249
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -4912,8 +4912,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 620.28125
-        y: 794.4453
-        width: 155
+        y: 746.4453
+        width: 141
         height: 64
       isBreakpoint: 0
       isSequence: 0
@@ -5032,8 +5032,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 3458
-        y: 492.5
-        width: 104
+        y: 444.5
+        width: 100
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -5093,7 +5093,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 60.28125
-        y: 762.4453
+        y: 714.4453
         width: 100
         height: 48
       isBreakpoint: 0
@@ -5177,8 +5177,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 236.28125
-        y: 762.4453
-        width: 126
+        y: 714.4453
+        width: 112
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -6488,8 +6488,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 236.28125
-        y: 810.4453
-        width: 122
+        y: 762.4453
+        width: 108
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -7799,8 +7799,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 412.28125
-        y: 762.4453
-        width: 123
+        y: 714.4453
+        width: 110
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -8936,8 +8936,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 412.28125
-        y: 810.4453
-        width: 125
+        y: 762.4453
+        width: 110
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -10073,7 +10073,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1250
-        y: 348.5
+        y: 300.5
         width: 100
         height: 48
       isBreakpoint: 0
@@ -10157,8 +10157,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1442
-        y: 412.5
-        width: 213
+        y: 364.5
+        width: 189.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -10278,8 +10278,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2706
-        y: 188.5
-        width: 290
+        y: 140.5
+        width: 260
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -10399,8 +10399,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2706
-        y: 268.5
-        width: 247.5
+        y: 220.5
+        width: 221.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -10520,8 +10520,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2706
-        y: 460.5
-        width: 296
+        y: 412.5
+        width: 263.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -10642,8 +10642,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2706
-        y: 540.5
-        width: 328.5
+        y: 492.5
+        width: 295
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -10764,8 +10764,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2706
-        y: 732.5
-        width: 224.5
+        y: 684.5
+        width: 202
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -10885,8 +10885,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2706
-        y: 812.5
-        width: 300.5
+        y: 764.5
+        width: 271
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -11006,8 +11006,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1442
-        y: 1180.5
-        width: 219
+        y: 1132.5
+        width: 196
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -11144,8 +11144,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1778
-        y: 1228.5
-        width: 110
+        y: 1180.5
+        width: 100
         height: 64
       isBreakpoint: 0
       isSequence: 0
@@ -11264,8 +11264,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1970
-        y: 1260.5
-        width: 239
+        y: 1212.5
+        width: 216.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -11385,8 +11385,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1970
-        y: 1340.5
-        width: 195.5
+        y: 1292.5
+        width: 177.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -11506,7 +11506,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1970
-        y: 1180.5
+        y: 1132.5
         width: 247
         height: 32
       isBreakpoint: 0
@@ -11627,8 +11627,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2418
-        y: 1068.5
-        width: 143
+        y: 1020.5
+        width: 132
         height: 64
       isBreakpoint: 0
       isSequence: 0
@@ -11968,8 +11968,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2418
-        y: 1276.5
-        width: 143
+        y: 1228.5
+        width: 132
         height: 64
       isBreakpoint: 0
       isSequence: 0
@@ -12358,8 +12358,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2418
-        y: 1484.4922
-        width: 143
+        y: 1436.4922
+        width: 132
         height: 64
       isBreakpoint: 0
       isSequence: 0
@@ -12749,8 +12749,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2706
-        y: 956.5
-        width: 308.5
+        y: 908.5
+        width: 272.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -12871,7 +12871,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 4210
-        y: 1372.5
+        y: 1324.5
         width: 100
         height: 16
       isBreakpoint: 0
@@ -12974,8 +12974,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2706
-        y: 1228.5
-        width: 381.5
+        y: 1180.5
+        width: 340
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -13097,8 +13097,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2706
-        y: 1500.4922
-        width: 331.5
+        y: 1452.4922
+        width: 297
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -13219,8 +13219,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 3458
-        y: 1340.5
-        width: 117
+        y: 1292.5
+        width: 108
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -13330,8 +13330,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1250
-        y: 1196.5
-        width: 110
+        y: 1148.5
+        width: 101
         height: 48
       isBreakpoint: 0
       isSequence: 0
@@ -13414,8 +13414,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1442
-        y: 1260.5
-        width: 219.5
+        y: 1212.5
+        width: 194.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -13535,8 +13535,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2706
-        y: 1036.5
-        width: 203
+        y: 988.5
+        width: 179.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -13657,8 +13657,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2706
-        y: 1116.5
-        width: 364
+        y: 1068.5
+        width: 323.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -13779,8 +13779,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2706
-        y: 1308.5
-        width: 181
+        y: 1260.5
+        width: 164.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -13900,8 +13900,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2706
-        y: 1388.5
-        width: 282.5
+        y: 1340.5
+        width: 252.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -14022,8 +14022,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2706
-        y: 1580.4922
-        width: 400
+        y: 1532.4922
+        width: 362.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -14145,8 +14145,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2709.4453
-        y: 1659.3438
-        width: 387
+        y: 1611.3438
+        width: 346
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -14267,8 +14267,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1458
-        y: 1996.5
-        width: 219
+        y: 1948.5
+        width: 196.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -14405,8 +14405,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1794
-        y: 2044.5
-        width: 110
+        y: 1996.5
+        width: 100
         height: 64
       isBreakpoint: 0
       isSequence: 0
@@ -14575,8 +14575,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1986
-        y: 2076.5
-        width: 161
+        y: 2028.5
+        width: 144.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -14696,8 +14696,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1986
-        y: 2156.5
-        width: 196
+        y: 2108.5
+        width: 174.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -14817,8 +14817,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1986
-        y: 1996.5
-        width: 222.5
+        y: 1948.5
+        width: 199
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -14938,8 +14938,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2434
-        y: 1884.5
-        width: 143
+        y: 1836.5
+        width: 131
         height: 64
       isBreakpoint: 0
       isSequence: 0
@@ -15328,8 +15328,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2434
-        y: 2092.5
-        width: 143
+        y: 2044.5
+        width: 132
         height: 64
       isBreakpoint: 0
       isSequence: 0
@@ -15718,8 +15718,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2434
-        y: 2300.4922
-        width: 143
+        y: 2252.4922
+        width: 132
         height: 64
       isBreakpoint: 0
       isSequence: 0
@@ -16110,8 +16110,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2722
-        y: 1772.5
-        width: 352.5
+        y: 1724.5
+        width: 312.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -16232,8 +16232,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2722
-        y: 2044.5
-        width: 252.5
+        y: 1996.5
+        width: 227
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -16353,8 +16353,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2722
-        y: 2316.4922
-        width: 230
+        y: 2268.4922
+        width: 205
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -16474,8 +16474,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 3474
-        y: 2156.5
-        width: 117
+        y: 2108.5
+        width: 109
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -16585,8 +16585,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1266
-        y: 2012.5
-        width: 110
+        y: 1964.5
+        width: 102
         height: 48
       isBreakpoint: 0
       isSequence: 0
@@ -16669,8 +16669,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1458
-        y: 2076.5
-        width: 219.5
+        y: 2028.5
+        width: 195
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -16791,8 +16791,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2722
-        y: 1852.5
-        width: 385
+        y: 1804.5
+        width: 341
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -16914,8 +16914,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2722
-        y: 1932.5
-        width: 327
+        y: 1884.5
+        width: 290
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -17036,8 +17036,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2722
-        y: 2124.5
-        width: 280
+        y: 2076.5
+        width: 251.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -17157,8 +17157,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2722
-        y: 2204.5
-        width: 260
+        y: 2156.5
+        width: 234.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -17279,8 +17279,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2722
-        y: 2396.4922
-        width: 340.5
+        y: 2348.4922
+        width: 305
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -17401,8 +17401,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 4192
-        y: 2000
-        width: 160
+        y: 1952
+        width: 144
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -17525,8 +17525,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 4187
-        y: 2067
-        width: 126
+        y: 2019
+        width: 114
         height: 48
       isBreakpoint: 0
       isSequence: 0
@@ -17604,7 +17604,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 4816
-        y: 2048
+        y: 2000
         width: 100
         height: 32
       isBreakpoint: 0
@@ -17733,7 +17733,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 4816
-        y: 2096
+        y: 2048
         width: 100
         height: 32
       isBreakpoint: 0
@@ -17863,7 +17863,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 4816
-        y: 2144
+        y: 2096
         width: 100
         height: 32
       isBreakpoint: 0
@@ -17874,7 +17874,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: Show button
+        toState: Hind button
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -17912,8 +17912,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: Significantly; the law intensified aboliton organizing efforts against
-            slavery.
+          value: Move the slider to answer the question
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -17993,7 +17992,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 4816
-        y: 2192
+        y: 2144
         width: 100
         height: 32
       isBreakpoint: 0
@@ -18123,7 +18122,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 4816
-        y: 2240
+        y: 2192
         width: 100
         height: 32
       isBreakpoint: 0
@@ -18253,7 +18252,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 4496
-        y: 2112
+        y: 2064
         width: 100
         height: 32
       isBreakpoint: 0
@@ -18450,7 +18449,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 4496
-        y: 2160
+        y: 2112
         width: 100
         height: 96
       isBreakpoint: 0
@@ -18606,8 +18605,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 4496
-        y: 2048
-        width: 113
+        y: 2000
+        width: 104
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -18723,8 +18722,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 4192
-        y: 2304
-        width: 117
+        y: 2256
+        width: 110
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -18840,8 +18839,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 4192
-        y: 1472
-        width: 296
+        y: 1424
+        width: 260.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -18962,8 +18961,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 4192
-        y: 1552
-        width: 369
+        y: 1504
+        width: 329
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -19084,8 +19083,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 4192
-        y: 1632
-        width: 285
+        y: 1584
+        width: 252
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -19205,8 +19204,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 4192
-        y: 1712
-        width: 262
+        y: 1664
+        width: 232.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -19327,7 +19326,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 4192
-        y: 1792
+        y: 1744
         width: 400
         height: 32
       isBreakpoint: 0
@@ -19450,8 +19449,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 4192
-        y: 2592
-        width: 388
+        y: 2544
+        width: 339.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -19572,7 +19571,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 4752
-        y: 2608
+        y: 2560
         width: 100
         height: 16
       isBreakpoint: 0
@@ -19782,8 +19781,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 4192
-        y: 2352
-        width: 245.5
+        y: 2304
+        width: 220
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -19904,8 +19903,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2720
-        y: 2480
-        width: 340.5
+        y: 2432
+        width: 305.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -20025,8 +20024,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 864
-        y: 736
-        width: 147
+        y: 688
+        width: 134
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -20103,8 +20102,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 864
-        y: 800
-        width: 160
+        y: 752
+        width: 144
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -20181,8 +20180,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 864
-        y: 864
-        width: 160
+        y: 816
+        width: 145
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -20253,6 +20252,123 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 000000000100000000000000
         paramByteDataSize: 000000000000000001000000
+    - name: Hind button
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 4496
+        y: 1936
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: wait for action
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - Efs.PlayMaker.Actions.ActivateMultiGameObjects
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: d788ab05
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 411216284}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 00
+        arrayParamSizes: 0000000001000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmGameObject
+        - HutongGames.PlayMaker.FsmGameObject
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0c0000001100000011000000110000000c0000001300000011000000110000001100000001000000
+        paramName:
+        - activateGameObjects
+        - activateRecursive
+        - invertActivateIf
+        - activateIf
+        - deactivateGameObjects
+        - 
+        - deactivateRecursive
+        - invertDeactivateIf
+        - deactivateIf
+        - everyFrame
+        paramDataPos: 00000000000000000100000002000000010000000000000003000000040000000500000000000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -20496,44 +20612,6 @@ RectTransform:
   m_AnchoredPosition: {x: -130, y: -156}
   m_SizeDelta: {x: 143.6, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!21 &239874741
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Internal VRPanorama
-  m_Shader: {fileID: 4800000, guid: 6cc95f829d9ea4c4aa8061a05c8e81e0, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _LeftTexture:
-        m_Texture: {fileID: 2800000, guid: b7b3db9fba701b84db483c867c14df19, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _RightTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _Alpha: 1
-    - _LeftToRightEye: 0
-    - _TargetEye: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _LeftEyeOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _LeftEyeTiling: {r: 2, g: 1, b: 0, a: 0}
-    - _RightEyeOffset: {r: -0, g: -0, b: 0, a: 0}
-    - _RightEyeTiling: {r: 2, g: 1, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &258622266
 GameObject:
   m_ObjectHideFlags: 0
@@ -27217,6 +27295,44 @@ MonoBehaviour:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
+--- !u!21 &518773568
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Internal VRPanorama
+  m_Shader: {fileID: 4800000, guid: 6cc95f829d9ea4c4aa8061a05c8e81e0, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _LeftTexture:
+        m_Texture: {fileID: 2800000, guid: b7b3db9fba701b84db483c867c14df19, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RightTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 1
+    - _LeftToRightEye: 0
+    - _TargetEye: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _LeftEyeOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _LeftEyeTiling: {r: 2, g: 1, b: 0, a: 0}
+    - _RightEyeOffset: {r: -0, g: -0, b: 0, a: 0}
+    - _RightEyeTiling: {r: 2, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &525619155
 GameObject:
   m_ObjectHideFlags: 0
@@ -35043,7 +35159,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 239874741}
+  - {fileID: 518773568}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -65767,13 +65883,13 @@ MonoBehaviour:
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000001000000010000000000000001000000000000000000000000000000010000000000000001000000000000000000000000000000000000000400000001000000010000000100000001000000
     - name: lab_intro6
       description: As you analyze evidence, you'll automatically generate Field Notes
-        about the causes of the Massacre.
+        about the Fugitive Slave Law.
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 2192
         y: 592
-        width: 356
+        width: 340.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -65822,7 +65938,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: "As you analyze evidence, you'll automatically generate \nField
-            Notes about the causes of the Massacre."
+            Notes about the Fugitive Slave Law."
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
