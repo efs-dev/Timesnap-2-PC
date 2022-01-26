@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 1660438111
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: timesnap1
+      Dependencies: {}
+    Info_1:
+      Name: boston
+      Dependencies: {}
+    Info_2:
+      Name: christiana
+      Dependencies: {}
+    Info_3:
+      Name: ohio
+      Dependencies: {}
+    Info_4:
+      Name: lab
+      Dependencies: {}
+    Info_5:
+      Name: scenes
+      Dependencies:
+        Dependency_0: boston
+        Dependency_1: christiana
+        Dependency_2: ohio
+        Dependency_3: lab

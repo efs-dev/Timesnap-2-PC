@@ -1,0 +1,66 @@
+ManifestFileVersion: 0
+CRC: 486332771
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7b29225be8c40a8b723a13f8bf558231
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/interior_C_Joshua_Kite_L.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/farm_house_A_R.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/marshal_L.png
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/christiana_wf_R.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/interior_C_SP_L.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/eliza_parker_C.png
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/farm_house_C_Hanway_R.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/fram_house_C_Z_L.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/interior_C_Z_L.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/farm_house_C_R.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/marshal_C.png
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/interior_A_L.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/farm_house_C_L.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/fram_house_C_Z.png
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/gorsuch_L.png
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/interior_C_Elisa_Parker_R.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/fram_house_C_Z_R.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/interior_C_Z.png
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/farm_house_B_L.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/interior_C_SP_R.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/joshua_kite_L.png
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/farm_house_A_L.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/marshal_R.png
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/farm_house_C_Marshal_R.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/hanway_R.png
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/interior_C_Joshua_Kite_R.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/interior_B_L.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/corn_knife_R.png
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/farm_house_C_Marshal_L.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/interior_C_L.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/interior_C_Elisa_Parker_L.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/interior_B_R.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/eliza_parker_L.png
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/interior_C_R.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/interior_A_R.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/farm_house_C_Hanway_L.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/joshua_kite_R.png
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/gorsuch_R.png
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/interior_C_Z_R.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/corn_knife_C.png
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/christiana_wf_L.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/corn_knife_L.png
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/farm_house_C_Gorsuch_R.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/farm_house_C_Gorsuch_L.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/hanway_L.png
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/eliza_parker_R.png
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/farm_house_B_R.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/joshua_kite_C.png
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/gorsuch_C.png
+- Assets/Timesnap/Titles/Timesnap2/Panos/Christiana/hanway_C.png
+Dependencies: []
