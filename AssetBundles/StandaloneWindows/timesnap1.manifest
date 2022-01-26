@@ -1,0 +1,134 @@
+ManifestFileVersion: 0
+CRC: 1198791473
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8fcdba34b41189b550fe0469b7ae8390
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 39c1cfd5f80fc1913a6058f76da09a3e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7a2433ecc5ccf4e63bb2a0c0a63396b6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 739800cd36aba44e9b04ce977e5784bd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a2820a23b10fc41fc9ce5507a7a72d87, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0c73a10db167d2a4a9b5ab8bdf49a7d2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b0c5ca5fa04924fba9147dfaf47df831, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 651aa76e8cc8486469816be09993892d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cba09c00751ba41159526c8183b0de7f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1ca06ba767c343f88bd2863d51c3f74b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 25b628e3de424689ac7de60f393632a2, type: 3}
+- Class: 114
+  Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+- Class: 114
+  Script: {fileID: -73581967, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+- Class: 114
+  Script: {fileID: -1775717093, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b6ce2385512c93e46a300d66b805c74e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0de7d8ef8e764b9f97aeb37dfc371655, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e71a9b5eb05af4f46b51556c74367b94, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b2e569dc832500047bf4350b4dae9b97, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 12a91b7130e414ab9a11ddba1bc9f3cc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: aed30927f3f76d3429ef97f3a5231ca9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 487928bdc59347d6861ccc41061b394c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9ae4fc18c5a845cd8a508ea7ac21261c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d818b7be6aa0b4854a7cbc164af40336, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 89715ad69b973a14899afa2c6730b30b, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 225
+  Script: {instanceID: 0}
+- Class: 258
+  Script: {instanceID: 0}
+- Class: 850595691
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Timesnap/Titles/Timesnap1/Scenes/Old Scenes/UI HUD.unity
+- Assets/Timesnap/Titles/Timesnap1/Scenes/Old Scenes/UI Map.unity
+Dependencies: []

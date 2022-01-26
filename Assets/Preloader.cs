@@ -13,7 +13,7 @@ public class Preloader : MonoBehaviour
         yield return AssetBundleLoader.Load("scenes", bundle => AssetBundleManager.Scenes = bundle);
         yield return AssetBundleLoader.Load("lab", bundle => AssetBundleManager.Lab = bundle);
 
-        SceneManager.LoadScene("_TS Engine B");
+        SceneManager.LoadScene("_TS Engine B 2");
     }
 }
 
@@ -28,8 +28,8 @@ public static class AssetBundleLoader
     {
         yield return Load("ohio", bundle => AssetBundleManager.Ohio = bundle);
 
-        AssetBundleManager.UnloadTavern();
-        AssetBundleManager.UnloadJail();
+        AssetBundleManager.UnloadBoston();
+        AssetBundleManager.UnloadChristiana();
 
         onComplete();
     }
@@ -38,8 +38,8 @@ public static class AssetBundleLoader
     {
         yield return Load("boston", bundle => AssetBundleManager.Boston = bundle);
 
-        AssetBundleManager.UnloadWorkshop();
-        AssetBundleManager.UnloadJail();
+        AssetBundleManager.UnloadOhio();
+        AssetBundleManager.UnloadChristiana();
 
         onComplete();
     }
@@ -48,8 +48,8 @@ public static class AssetBundleLoader
     {
         yield return Load("christiana", bundle => AssetBundleManager.Christiana = bundle);
 
-        AssetBundleManager.UnloadWorkshop();
-        AssetBundleManager.UnloadTavern();
+        AssetBundleManager.UnloadOhio();
+        AssetBundleManager.UnloadBoston();
 
         onComplete();
     }
@@ -92,7 +92,7 @@ public class AssetBundleManager
     public static AssetBundle Boston;
     public static AssetBundle Christiana;
 
-    public static void UnloadWorkshop()
+    public static void UnloadOhio()
     {
         if (Ohio != null)
         {
@@ -101,7 +101,7 @@ public class AssetBundleManager
         }
     }
 
-    public static void UnloadTavern()
+    public static void UnloadBoston()
     {
         if (Boston != null)
         {
@@ -110,7 +110,7 @@ public class AssetBundleManager
         }
     }
 
-    public static void UnloadJail()
+    public static void UnloadChristiana()
     {
         if (Christiana != null)
         {
