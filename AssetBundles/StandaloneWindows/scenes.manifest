@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1728781412
+CRC: 4004736891
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 71bfb673417dc87081221f6d549e8bfc
+    Hash: 887c92572da3c2a593ff42c5f09477aa
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 24550e64b3e2fd669ae33c1db626c110
+    Hash: c5cd5de8af2d84bd7afee04f5ae781f8
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -45,6 +45,10 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: ea765d05f5b3683458fb6b25f6663d26, type: 3}
 - Class: 114
@@ -86,8 +90,6 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 312e6e330f2456443971074ef3f5d223, type: 3}
 - Class: 114
-  Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-- Class: 114
   Script: {fileID: -73581967, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 733011bb287e50548bb523974e24f50d, type: 3}
@@ -109,8 +111,6 @@ ClassTypes:
   Script: {fileID: 11500000, guid: e71a9b5eb05af4f46b51556c74367b94, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: b2e569dc832500047bf4350b4dae9b97, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 1b30b5742e2026b45b551997babf9adb, type: 3}
 - Class: 114
@@ -146,11 +146,9 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 89715ad69b973a14899afa2c6730b30b, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 865881f8f457d5748888b7008403119a, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 4ea1fcfe757a18b47af945dd200322f3, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 8ab353babbdeb974b9046997d3df3a75, type: 3}
+  Script: {fileID: 11500000, guid: 865881f8f457d5748888b7008403119a, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -182,11 +180,10 @@ Assets:
 - Assets/Timesnap/Titles/Timesnap2/Scenes/Christiana.unity
 - Assets/Timesnap/Titles/Timesnap2/Scenes/Lab2.unity
 - Assets/Timesnap/Titles/Timesnap2/Scenes/Cincinnati.unity
-- Assets/Timesnap/Titles/Timesnap2/Scenes/Preloader.unity
 - Assets/Timesnap/Titles/Timesnap2/Scenes/Boston.unity
 - Assets/Timesnap/Titles/Timesnap2/Scenes/_TS Engine B 2.unity
 Dependencies:
-- D:/efs_git/Timesnap-2-PC/AssetBundles/StandaloneWindows/boston
-- D:/efs_git/Timesnap-2-PC/AssetBundles/StandaloneWindows/christiana
-- D:/efs_git/Timesnap-2-PC/AssetBundles/StandaloneWindows/lab
-- D:/efs_git/Timesnap-2-PC/AssetBundles/StandaloneWindows/ohio
+- D:/EFS Git Hub Project/Timesnap-2-PC/AssetBundles/StandaloneWindows/boston
+- D:/EFS Git Hub Project/Timesnap-2-PC/AssetBundles/StandaloneWindows/christiana
+- D:/EFS Git Hub Project/Timesnap-2-PC/AssetBundles/StandaloneWindows/lab
+- D:/EFS Git Hub Project/Timesnap-2-PC/AssetBundles/StandaloneWindows/ohio

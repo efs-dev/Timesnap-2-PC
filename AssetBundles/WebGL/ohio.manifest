@@ -1,17 +1,15 @@
 ManifestFileVersion: 0
-CRC: 551761903
+CRC: 3069467273
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 6b942115968adb6159177bc3415b8e7e
+    Hash: a3c896b14e496dd04a3ac1b7aab058c4
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
+    Hash: b0363f7088f9761414f730641bf9a24b
 HashAppended: 0
 ClassTypes:
 - Class: 28
-  Script: {instanceID: 0}
-- Class: 213
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
@@ -33,14 +31,13 @@ Assets:
 - Assets/Timesnap/Titles/Timesnap2/Panos/Cincinnati/store_02_R.jpg
 - Assets/Timesnap/Titles/Timesnap2/Panos/Cincinnati/cincinnati_ef_R.jpg
 - Assets/Timesnap/Titles/Timesnap2/Panos/Cincinnati/chamber_03_Z_R.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Cincinnati/bible_C.png
 - Assets/Timesnap/Titles/Timesnap2/Panos/Cincinnati/store_03_slavecatcher_R.jpg
 - Assets/Timesnap/Titles/Timesnap2/Panos/Cincinnati/chamber_03_Judge_L.jpg
-- Assets/Timesnap/Titles/Timesnap2/Panos/Cincinnati/bible_C.png
 - Assets/Timesnap/Titles/Timesnap2/Panos/Cincinnati/store_03_shopkeeper_L.jpg
 - Assets/Timesnap/Titles/Timesnap2/Panos/Cincinnati/chamber_01_R.jpg
 - Assets/Timesnap/Titles/Timesnap2/Panos/Cincinnati/peter_clark_L.png
 - Assets/Timesnap/Titles/Timesnap2/Panos/Cincinnati/store_03_slavecatcher_L.jpg
-- Assets/Timesnap/Titles/Timesnap2/Sprites/runaway_ads.jpg
 - Assets/Timesnap/Titles/Timesnap2/Panos/Cincinnati/store_03_Z.png
 - Assets/Timesnap/Titles/Timesnap2/Panos/Cincinnati/chamber_03_Z_L.jpg
 - Assets/Timesnap/Titles/Timesnap2/Panos/Cincinnati/peter_clark_R.png

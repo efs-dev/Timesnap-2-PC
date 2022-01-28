@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 275441635
+CRC: 3977074881
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -9,10 +9,10 @@ AssetBundleManifest:
       Name: boston
       Dependencies: {}
     Info_2:
-      Name: christiana
+      Name: ohio
       Dependencies: {}
     Info_3:
-      Name: ohio
+      Name: christiana
       Dependencies: {}
     Info_4:
       Name: lab
@@ -21,6 +21,6 @@ AssetBundleManifest:
       Name: scenes
       Dependencies:
         Dependency_0: boston
-        Dependency_1: christiana
-        Dependency_2: ohio
+        Dependency_1: ohio
+        Dependency_2: christiana
         Dependency_3: lab

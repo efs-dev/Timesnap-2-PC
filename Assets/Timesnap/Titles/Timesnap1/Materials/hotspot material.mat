@@ -5,7 +5,8 @@ Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: hotspot material
   m_Shader: {fileID: 4800000, guid: 533bbf9f9a29942449f9006c5da39feb, type: 3}
   m_ShaderKeywords: 
@@ -74,3 +75,4 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []

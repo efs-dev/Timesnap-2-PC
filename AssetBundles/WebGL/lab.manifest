@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3177177837
+CRC: 2962477299
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9627e88cbcc03fd2dbae1ac402ad7d34
+    Hash: f894dae742fda95e2de5986b8427f250
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -17,6 +17,7 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Timesnap/Titles/Timesnap2/Sprites/location_christiana.png
 - Assets/Timesnap/Titles/Timesnap2/Sprites/location_cincinnati.png
+- Assets/Timesnap/Titles/Timesnap2/Sprites/runaway_ads.jpg
 - Assets/Timesnap/Titles/Timesnap2/Sprites/effects_of_the_fugitive_slave_law.png
 - Assets/Timesnap/Titles/Timesnap2/Sprites/location_boston.png
 Dependencies: []

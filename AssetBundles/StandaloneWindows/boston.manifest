@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3186996325
+CRC: 3594803965
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0b300282b7b23df401b156e32949d899
+    Hash: 49e5c951b842ddb1506cf575d97c0f5c
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -19,7 +19,6 @@ Assets:
 - Assets/Timesnap/Titles/Timesnap2/Panos/Boston/unionist_man_C.png
 - Assets/Timesnap/Titles/Timesnap2/Panos/Boston/ann_letter_L.png
 - Assets/Timesnap/Titles/Timesnap2/Panos/Boston/ann_letter_R.png
-- Assets/Timesnap/Titles/Timesnap2/Panos/Boston/boston_street_01C_anne_R.jpg
 - Assets/Timesnap/Titles/Timesnap2/Panos/Boston/boston_street_02C_abolitionist_R.jpg
 - Assets/Timesnap/Titles/Timesnap2/Panos/Boston/boston_street_01C_R.jpg
 - Assets/Timesnap/Titles/Timesnap2/Panos/Boston/boston_street_02C_Z.png
@@ -29,9 +28,7 @@ Assets:
 - Assets/Timesnap/Titles/Timesnap2/Panos/Boston/anne_weston_L.png
 - Assets/Timesnap/Titles/Timesnap2/Panos/Boston/boston_street_02B_L.jpg
 - Assets/Timesnap/Titles/Timesnap2/Panos/Boston/boston_street_01B_L.jpg
-- Assets/Timesnap/Titles/Timesnap2/Panos/Boston/boston_street_01A_R.jpg
 - Assets/Timesnap/Titles/Timesnap2/Panos/Boston/oration_C.png
-- Assets/Timesnap/Titles/Timesnap2/Panos/Boston/boston_street_01B_R.jpg
 - Assets/Timesnap/Titles/Timesnap2/Panos/Boston/anne_weston_C.png
 - Assets/Timesnap/Titles/Timesnap2/Panos/Boston/anne_weston_R.png
 - Assets/Timesnap/Titles/Timesnap2/Panos/Boston/broadside_L.png
@@ -48,17 +45,15 @@ Assets:
 - Assets/Timesnap/Titles/Timesnap2/Panos/Boston/boston_street_02B_R.jpg
 - Assets/Timesnap/Titles/Timesnap2/Panos/Boston/abolitionist_C.png
 - Assets/Timesnap/Titles/Timesnap2/Panos/Boston/boston_street_01C_anne_L.jpg
-- Assets/Timesnap/Titles/Timesnap2/Panos/Boston/boston_street_02C_R.jpg
 - Assets/Timesnap/Titles/Timesnap2/Panos/Boston/boston_street_02C_L.jpg
 - Assets/Timesnap/Titles/Timesnap2/Panos/Boston/unionist_man_L.png
+- Assets/Timesnap/Titles/Timesnap2/Panos/Boston/unionist_man_R.png
 - Assets/Timesnap/Titles/Timesnap2/Panos/Boston/boston_street_02A_L.jpg
-- Assets/Timesnap/Titles/Timesnap2/Panos/Boston/boston_street_02A_R.jpg
-- Assets/Timesnap/Titles/Timesnap2/Panos/Boston/boston_street_01C_unionist_R.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Boston/boston_street_01C_unionist_L.jpg
 - Assets/Timesnap/Titles/Timesnap2/Panos/Boston/boston_wf_L.jpg
 - Assets/Timesnap/Titles/Timesnap2/Panos/Boston/uncle_tom_L.png
-- Assets/Timesnap/Titles/Timesnap2/Panos/Boston/unionist_man_R.png
 - Assets/Timesnap/Titles/Timesnap2/Panos/Boston/oration_R.png
-- Assets/Timesnap/Titles/Timesnap2/Panos/Boston/boston_street_01C_unionist_L.jpg
+- Assets/Timesnap/Titles/Timesnap2/Panos/Boston/boston_street_02C_R.jpg
 - Assets/Timesnap/Titles/Timesnap2/Panos/Boston/uncle_tom_R.png
 - Assets/Timesnap/Titles/Timesnap2/Panos/Boston/boston_street_01C_Z_L.jpg
 - Assets/Timesnap/Titles/Timesnap2/Panos/Boston/ann_letter_C.png
