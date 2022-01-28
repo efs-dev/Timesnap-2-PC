@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 4004736891
+CRC: 2468398354
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 887c92572da3c2a593ff42c5f09477aa
+    Hash: 965effa822609cb2eb9470367aab42a4
   TypeTreeHash:
     serializedVersion: 2
-    Hash: c5cd5de8af2d84bd7afee04f5ae781f8
+    Hash: b01d11820364a19c385f4f50c5523caa
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -51,6 +51,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: ea765d05f5b3683458fb6b25f6663d26, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8ab353babbdeb974b9046997d3df3a75, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 6efaf4a7ba94e8a4db242a464b3650af, type: 3}
 - Class: 114
@@ -128,6 +130,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: aed30927f3f76d3429ef97f3a5231ca9, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 874706b436e28a54883056bab3c1caec, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 487928bdc59347d6861ccc41061b394c, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
@@ -145,8 +149,6 @@ ClassTypes:
   Script: {fileID: 11500000, guid: b867e22761946a3479a86a477d295201, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 89715ad69b973a14899afa2c6730b30b, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 4ea1fcfe757a18b47af945dd200322f3, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 865881f8f457d5748888b7008403119a, type: 3}
 - Class: 115
@@ -180,6 +182,7 @@ Assets:
 - Assets/Timesnap/Titles/Timesnap2/Scenes/Christiana.unity
 - Assets/Timesnap/Titles/Timesnap2/Scenes/Lab2.unity
 - Assets/Timesnap/Titles/Timesnap2/Scenes/Cincinnati.unity
+- Assets/Timesnap/Titles/Timesnap2/Scenes/Preloader.unity
 - Assets/Timesnap/Titles/Timesnap2/Scenes/Boston.unity
 - Assets/Timesnap/Titles/Timesnap2/Scenes/_TS Engine B 2.unity
 Dependencies:
