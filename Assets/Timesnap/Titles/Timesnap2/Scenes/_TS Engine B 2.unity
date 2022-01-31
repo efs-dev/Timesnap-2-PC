@@ -24245,7 +24245,7 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 0101000101010101010101
+        actionEnabled: 0101010101010101010101
         actionIsOpen: 0101010101010101010101
         actionStartIndex: 000000000300000006000000090000000c0000000f0000001200000015000000180000001b0000001e000000
         actionHashCodes: 4d51cf044d51cf044d51cf044d51cf044d51cf044d51cf044d51cf044d51cf044d51cf044d51cf044d51cf04
@@ -24669,7 +24669,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1038128548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24887,25 +24887,7 @@ MonoBehaviour:
         actionStartIndex: 00000000
         actionHashCodes: d788ab05
         unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 970774710}
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 1097581923}
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
+        fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
         animationCurveParams: []
         functionCallParams: []
@@ -24964,18 +24946,15 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams: []
         byteData: 00
-        arrayParamSizes: 0300000000000000
+        arrayParamSizes: 0000000000000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmGameObject
         - HutongGames.PlayMaker.FsmGameObject
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0c0000001300000013000000130000001100000011000000110000000c00000011000000110000001100000001000000
+        paramDataType: 0c0000001100000011000000110000000c00000011000000110000001100000001000000
         paramName:
         - activateGameObjects
-        - 
-        - 
-        - 
         - activateRecursive
         - invertActivateIf
         - activateIf
@@ -24984,8 +24963,8 @@ MonoBehaviour:
         - invertDeactivateIf
         - deactivateIf
         - everyFrame
-        paramDataPos: 000000000000000001000000020000000000000001000000020000000100000003000000040000000500000000000000
-        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
+        paramDataPos: 000000000000000001000000020000000100000003000000040000000500000000000000
+        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000001000000
     - name: Turn UI Off
       description: 
       colorIndex: 0
@@ -25960,7 +25939,7 @@ MonoBehaviour:
             typeName: UnityEngine.Object
             value: {fileID: 0}
           TargetTypeName: UnityEngine.MeshRenderer
-          PropertyName: material.color
+          PropertyName: 
           BoolParameter:
             useVariable: 0
             name: 
@@ -26035,7 +26014,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            typeName: UnityEngine.Color
+            typeName: 
             value: {fileID: 0}
           MaterialParameter:
             useVariable: 0
@@ -26054,19 +26033,19 @@ MonoBehaviour:
             typeName: 
             value: {fileID: 0}
           ColorParameter:
-            useVariable: 1
-            name: global_white
+            useVariable: 0
+            name: 
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {r: 1, g: 1, b: 1, a: 1}
+            value: {r: 0, g: 0, b: 0, a: 1}
           EnumParameter:
             useVariable: 0
             name: 
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: HutongGames.PlayMaker.None
+            enumName: 
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -26075,7 +26054,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: UnityEngine.Object
+            objectTypeName: 
             floatValues: []
             intValues: 
             boolValues: 
@@ -26620,7 +26599,7 @@ MonoBehaviour:
             typeName: UnityEngine.Object
             value: {fileID: 0}
           TargetTypeName: UnityEngine.UI.Image
-          PropertyName: sprite
+          PropertyName: 
           BoolParameter:
             useVariable: 0
             name: 
@@ -26695,8 +26674,8 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            typeName: UnityEngine.Sprite
-            value: {fileID: 21300000, guid: 64225c869d5c09e4cbe8eb9ffda40038, type: 3}
+            typeName: 
+            value: {fileID: 0}
           MaterialParameter:
             useVariable: 0
             name: 
@@ -26726,7 +26705,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: HutongGames.PlayMaker.None
+            enumName: 
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -26735,7 +26714,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: UnityEngine.Object
+            objectTypeName: 
             floatValues: []
             intValues: 
             boolValues: 
@@ -27676,7 +27655,7 @@ MonoBehaviour:
             typeName: UnityEngine.Object
             value: {fileID: 0}
           TargetTypeName: UnityEngine.UI.Image
-          PropertyName: color
+          PropertyName: 
           BoolParameter:
             useVariable: 0
             name: 
@@ -27751,7 +27730,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            typeName: UnityEngine.Color
+            typeName: 
             value: {fileID: 0}
           MaterialParameter:
             useVariable: 0
@@ -27775,14 +27754,14 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {r: 1, g: 1, b: 1, a: 0.7058824}
+            value: {r: 0, g: 0, b: 0, a: 1}
           EnumParameter:
             useVariable: 0
             name: 
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: HutongGames.PlayMaker.None
+            enumName: 
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -27791,7 +27770,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: UnityEngine.Object
+            objectTypeName: 
             floatValues: []
             intValues: 
             boolValues: 
@@ -27808,7 +27787,7 @@ MonoBehaviour:
             typeName: UnityEngine.Object
             value: {fileID: 0}
           TargetTypeName: UnityEngine.UI.Image
-          PropertyName: color
+          PropertyName: 
           BoolParameter:
             useVariable: 0
             name: 
@@ -27883,7 +27862,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            typeName: UnityEngine.Color
+            typeName: 
             value: {fileID: 0}
           MaterialParameter:
             useVariable: 0
@@ -27907,14 +27886,14 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {r: 1, g: 1, b: 1, a: 0.7058824}
+            value: {r: 0, g: 0, b: 0, a: 1}
           EnumParameter:
             useVariable: 0
             name: 
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: HutongGames.PlayMaker.None
+            enumName: 
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -27923,7 +27902,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: UnityEngine.Object
+            objectTypeName: 
             floatValues: []
             intValues: 
             boolValues: 
@@ -29096,7 +29075,7 @@ MonoBehaviour:
             typeName: UnityEngine.Object
             value: {fileID: 0}
           TargetTypeName: UnityEngine.UI.Image
-          PropertyName: color
+          PropertyName: 
           BoolParameter:
             useVariable: 0
             name: 
@@ -29171,7 +29150,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            typeName: UnityEngine.Color
+            typeName: 
             value: {fileID: 0}
           MaterialParameter:
             useVariable: 0
@@ -29190,8 +29169,8 @@ MonoBehaviour:
             typeName: 
             value: {fileID: 0}
           ColorParameter:
-            useVariable: 1
-            name: global_black
+            useVariable: 0
+            name: 
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -29202,7 +29181,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: HutongGames.PlayMaker.None
+            enumName: 
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -29211,7 +29190,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: UnityEngine.Object
+            objectTypeName: 
             floatValues: []
             intValues: 
             boolValues: 
@@ -29228,7 +29207,7 @@ MonoBehaviour:
             typeName: UnityEngine.Object
             value: {fileID: 0}
           TargetTypeName: UnityEngine.UI.Image
-          PropertyName: color
+          PropertyName: 
           BoolParameter:
             useVariable: 0
             name: 
@@ -29303,7 +29282,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            typeName: UnityEngine.Color
+            typeName: 
             value: {fileID: 0}
           MaterialParameter:
             useVariable: 0
@@ -29322,8 +29301,8 @@ MonoBehaviour:
             typeName: 
             value: {fileID: 0}
           ColorParameter:
-            useVariable: 1
-            name: global_black
+            useVariable: 0
+            name: 
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -29334,7 +29313,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: HutongGames.PlayMaker.None
+            enumName: 
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -29343,7 +29322,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: UnityEngine.Object
+            objectTypeName: 
             floatValues: []
             intValues: 
             boolValues: 
@@ -29360,7 +29339,7 @@ MonoBehaviour:
             typeName: UnityEngine.Object
             value: {fileID: 0}
           TargetTypeName: UnityEngine.UI.Image
-          PropertyName: color
+          PropertyName: 
           BoolParameter:
             useVariable: 0
             name: 
@@ -29435,7 +29414,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            typeName: UnityEngine.Color
+            typeName: 
             value: {fileID: 0}
           MaterialParameter:
             useVariable: 0
@@ -29454,8 +29433,8 @@ MonoBehaviour:
             typeName: 
             value: {fileID: 0}
           ColorParameter:
-            useVariable: 1
-            name: global_black
+            useVariable: 0
+            name: 
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -29466,7 +29445,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: HutongGames.PlayMaker.None
+            enumName: 
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -29475,7 +29454,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: UnityEngine.Object
+            objectTypeName: 
             floatValues: []
             intValues: 
             boolValues: 
@@ -29492,7 +29471,7 @@ MonoBehaviour:
             typeName: UnityEngine.Object
             value: {fileID: 0}
           TargetTypeName: UnityEngine.UI.Image
-          PropertyName: color
+          PropertyName: 
           BoolParameter:
             useVariable: 0
             name: 
@@ -29567,7 +29546,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            typeName: UnityEngine.Color
+            typeName: 
             value: {fileID: 0}
           MaterialParameter:
             useVariable: 0
@@ -29586,8 +29565,8 @@ MonoBehaviour:
             typeName: 
             value: {fileID: 0}
           ColorParameter:
-            useVariable: 1
-            name: global_black
+            useVariable: 0
+            name: 
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -29598,7 +29577,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: HutongGames.PlayMaker.None
+            enumName: 
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -29607,7 +29586,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: UnityEngine.Object
+            objectTypeName: 
             floatValues: []
             intValues: 
             boolValues: 
@@ -29624,7 +29603,7 @@ MonoBehaviour:
             typeName: UnityEngine.Object
             value: {fileID: 0}
           TargetTypeName: UnityEngine.UI.Image
-          PropertyName: color
+          PropertyName: 
           BoolParameter:
             useVariable: 0
             name: 
@@ -29699,7 +29678,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            typeName: UnityEngine.Color
+            typeName: 
             value: {fileID: 0}
           MaterialParameter:
             useVariable: 0
@@ -29718,8 +29697,8 @@ MonoBehaviour:
             typeName: 
             value: {fileID: 0}
           ColorParameter:
-            useVariable: 1
-            name: global_black
+            useVariable: 0
+            name: 
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -29730,7 +29709,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: HutongGames.PlayMaker.None
+            enumName: 
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -29739,7 +29718,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: UnityEngine.Object
+            objectTypeName: 
             floatValues: []
             intValues: 
             boolValues: 
@@ -29756,7 +29735,7 @@ MonoBehaviour:
             typeName: UnityEngine.Object
             value: {fileID: 0}
           TargetTypeName: UnityEngine.UI.Image
-          PropertyName: color
+          PropertyName: 
           BoolParameter:
             useVariable: 0
             name: 
@@ -29831,7 +29810,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            typeName: UnityEngine.Color
+            typeName: 
             value: {fileID: 0}
           MaterialParameter:
             useVariable: 0
@@ -29850,8 +29829,8 @@ MonoBehaviour:
             typeName: 
             value: {fileID: 0}
           ColorParameter:
-            useVariable: 1
-            name: global_black
+            useVariable: 0
+            name: 
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -29862,7 +29841,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: HutongGames.PlayMaker.None
+            enumName: 
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -29871,7 +29850,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: UnityEngine.Object
+            objectTypeName: 
             floatValues: []
             intValues: 
             boolValues: 
@@ -29888,7 +29867,7 @@ MonoBehaviour:
             typeName: UnityEngine.Object
             value: {fileID: 0}
           TargetTypeName: UnityEngine.UI.Image
-          PropertyName: color
+          PropertyName: 
           BoolParameter:
             useVariable: 0
             name: 
@@ -29963,7 +29942,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            typeName: UnityEngine.Color
+            typeName: 
             value: {fileID: 0}
           MaterialParameter:
             useVariable: 0
@@ -29987,14 +29966,14 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {r: 0, g: 0.50980395, b: 1, a: 1}
+            value: {r: 0, g: 0, b: 0, a: 1}
           EnumParameter:
             useVariable: 0
             name: 
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: HutongGames.PlayMaker.None
+            enumName: 
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -30003,7 +29982,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: UnityEngine.Object
+            objectTypeName: 
             floatValues: []
             intValues: 
             boolValues: 
